@@ -14,124 +14,68 @@ Projeto da disciplina **Inteligência Artificial — 7ºK**, da Faculdade de Com
 
 **Semestre:** 2026/2
 
-**Opção do projeto:** Framework
+## Problema
 
-## Problema e objetivo
-
-Rankings gerais favorecem livros populares, mas não representam necessariamente os interesses de cada leitor. O projeto investiga como dados de livros e avaliações podem estimar afinidade e ordenar títulos de forma personalizada.
-
-**Pergunta de pesquisa:** como técnicas de Inteligência Artificial podem utilizar dados de livros e preferências de leitores para gerar recomendações personalizadas no Booklog?
-
-O objetivo é desenvolver e avaliar uma abordagem de recomendação personalizada, comparando-a com um baseline não personalizado. A N1 contempla definição do problema, dataset, análise exploratória, preparação dos dados, metodologia e discussão ética. A implementação e a avaliação dos modelos compõem a N2.
+Plataformas de leitura possuem muitos livros disponíveis, porém rankings baseados apenas em popularidade não representam necessariamente a preferência individual de cada leitor. O projeto investiga como técnicas de Inteligência Artificial podem utilizar informações de leitores, livros e interações para estimar afinidade e gerar recomendações personalizadas.
 
 ## Dataset da N1
 
-O conjunto de dados foi elaborado pelo grupo e autorizado para a atividade. Ele contém:
+O dataset foi estruturado para representar o contexto de uma plataforma de leitura, utilizando identificadores anonimizados.
 
-- **30 leitores** identificados de `U001` a `U030`;
-- **36 livros** de seis gêneros;
-- **345 avaliações** em escala de 1 a 5;
-- datas de interação;
-- metadados de título, autor e gênero.
+A expansão da N1 contempla:
 
-Os identificadores não expõem nomes, e-mails ou outros dados pessoais. O dicionário, a origem e as regras de preparação estão em [`data/README.md`](data/README.md).
+- leitores com informações de perfil não identificáveis;
+- catálogo de livros com metadados relevantes;
+- histórico de interações leitor-livro;
+- avaliações em escala de 1 a 5.
 
-## Resultados da análise exploratória
+A estrutura foi criada para permitir análise exploratória, preparação dos dados e evolução posterior para modelos de recomendação na N2.
 
-| Indicador | Resultado |
-|---|---:|
-| Leitores | 30 |
-| Livros | 36 |
-| Avaliações | 345 |
-| Média das notas | 3,62 |
-| Mediana das notas | 3,5 |
-| Valores ausentes | 0 |
-| Pares leitor–livro duplicados | 0 |
-| Avaliações por leitor | 9 a 15 |
-| Esparsidade da matriz leitor × livro | 68,1% |
-
-A esparsidade mostra que 68,1% das combinações possíveis entre leitores e livros não possuem avaliação. Esse comportamento é compatível com a formulação de um sistema de recomendação e exige cuidado na divisão dos dados e na avaliação dos modelos.
-
-## Estrutura
+## Estrutura de dados
 
 ```text
-.
-├── data/
-│   ├── README.md
-│   ├── raw/
-│   │   ├── books.csv
-│   │   └── ratings.csv
-│   └── processed/
-│       ├── books_clean.csv
-│       └── ratings_clean.csv
-├── docs/n1/
-│   ├── README.md
-│   └── Relatorio_N1_Booklog_IA.md
-├── notebooks/
-│   └── 01_analise_exploratoria.ipynb
-├── src/
-│   └── analise_exploratoria.py
-├── .gitignore
-├── requirements.txt
-└── README.md
+raw/
+├── readers.csv
+├── books.csv
+└── ratings.csv
+
+processed/
+├── readers_clean.csv
+├── books_clean.csv
+└── ratings_clean.csv
 ```
 
-## Execução
+## Análise exploratória
 
-Requer Python 3.11 ou superior.
+A N1 analisa:
 
-```bash
-python -m venv .venv
+- quantidade de leitores, livros e interações;
+- distribuição das avaliações;
+- atividade por leitor;
+- popularidade dos livros;
+- distribuição por gênero;
+- valores ausentes e duplicidades;
+- esparsidade da matriz leitor × livro.
 
-# Linux/macOS
-source .venv/bin/activate
+A análise tem como objetivo avaliar se os dados possuem características adequadas para um sistema de recomendação.
 
-# Windows PowerShell
-.venv\Scripts\Activate.ps1
+## Preparação dos dados
 
-python -m pip install -r requirements.txt
-jupyter notebook notebooks/01_analise_exploratoria.ipynb
-```
+O processamento realiza:
 
-A mesma preparação pode ser reproduzida pela linha de comando:
+1. validação de colunas e tipos;
+2. tratamento de valores ausentes;
+3. remoção de duplicidades;
+4. validação das notas;
+5. conferência das relações entre leitores, livros e avaliações;
+6. geração dos arquivos processados.
 
-```bash
-python src/analise_exploratoria.py
-```
+## Continuidade para N2
 
-## Metodologia
+A N2 utilizará a base preparada para comparar uma abordagem personalizada com um baseline não personalizado. A técnica final será definida conforme as características observadas nos dados e os conteúdos abordados na disciplina.
 
-1. Validar colunas, tipos, chaves, notas e relações entre os arquivos.
-2. Verificar ausências e duplicidades.
-3. Analisar distribuição das notas e atividade por leitor, livro e gênero.
-4. Calcular a esparsidade da matriz leitor × livro.
-5. Gerar os arquivos tratados de forma determinística.
-6. Na N2, comparar um baseline não personalizado com uma abordagem personalizada adequada à base.
+Possíveis avaliações incluem métricas adequadas ao problema de regressão, classificação ou ranking, sempre justificadas pela metodologia escolhida.
 
-A escolha entre previsão de nota, classificação de interesse ou avaliação direta de ranking será justificada pela técnica aplicada. As métricas candidatas são MAE ou RMSE para regressão; precisão, recall e F1 para classificação; e Precision@K ou Recall@K para ranking.
+## Ética
 
-## Ética e responsabilidade
-
-O dataset publicado utiliza identificadores de leitores sem associação com nomes ou contatos. A evolução do projeto deve manter minimização de dados, controle de acesso e transparência sobre o caráter estimado das recomendações.
-
-A avaliação também deve observar viés de popularidade, concentração em poucos gêneros ou autores, baixa diversidade, bolhas de filtro e cold start. O sistema não deve afirmar que conhece o gosto do leitor; ele estima afinidade a partir dos dados disponíveis.
-
-## Entrega N1
-
-| Exigência | Evidência no repositório |
-|---|---|
-| Proposta e definição do problema | README e relatório |
-| Integrantes, RAs e e-mails | README, relatório, notebook e fonte Python |
-| Dataset e descrição | `data/raw/` e `data/README.md` |
-| Preparação dos dados | `src/analise_exploratoria.py` e `data/processed/` |
-| Análise exploratória | notebook executado |
-| Ética e responsabilidade | README e relatório |
-| Metodologia e resultados esperados | relatório da N1 |
-| Referências citadas | relatório da N1 |
-| Cabeçalho e histórico dos fontes | notebook e fonte Python |
-
-O relatório textual está em [`docs/n1/Relatorio_N1_Booklog_IA.md`](docs/n1/Relatorio_N1_Booklog_IA.md).
-
-## Continuidade para a N2
-
-A N2 implementará o baseline, a abordagem personalizada, o protocolo de separação dos dados e a avaliação objetiva. Técnicas adicionais, como TF-IDF, somente serão incorporadas quando contribuírem diretamente para o problema e estiverem justificadas pelos experimentos.
+O projeto considera privacidade, anonimização, minimização de dados, viés de popularidade, diversidade das recomendações, cold start e explicabilidade. As recomendações representam estimativas de afinidade baseadas nos dados disponíveis, não previsões absolutas sobre preferências humanas.
