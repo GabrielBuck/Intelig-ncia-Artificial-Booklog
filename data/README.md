@@ -1,61 +1,52 @@
-# Dataset — contrato proposto, versão 1
+# Dataset da N1
 
-**Coleta real ainda não disponibilizada.** Este contrato descreve o formato esperado. Confirmar escala e unidade de observação antes de coletar; alterações exigem atualizar documentação e código juntos.
+Para esta entrega, utilizamos um **conjunto de dados hipotético**, autorizado pelo professor para representar de forma coerente o problema de recomendação de livros.
 
-## Coleta original proposta
+Os dados não correspondem a usuários reais. Os identificadores `U001` a `U030` representam leitores hipotéticos.
 
-Coletar voluntariamente avaliações de livros efetivamente lidos, por formulário ou pelo Booklog. Não pedir notas para obras desconhecidas. Permitir busca por título/autor e inclusão de obras fora do catálogo reduz indução ao gosto do grupo. Registrar vieses do catálogo e do recrutamento por conveniência.
+## Arquivos
 
-Antes da coleta, documentar: responsável, instrumento e versão, período, recrutamento, público, critérios de inclusão, escala, desistências, deduplicação de participantes, origem/licença dos metadados e condições comunicadas de uso/publicação. Não há tamanho amostral garantido. Avaliar suficiência e sobreposição entre leitores após a coleta.
+### `raw/books.csv`
 
-Explicar finalidade acadêmica e possível publicação de uma versão revisada. Não coletar nomes, e-mails, telefones, localização precisa ou resenhas livres nesta primeira base. Gerar `user_id` aleatório, sem derivá-lo de e-mail/RA/telefone; eventual correspondência fica privada, fora do repositório. Pseudonimização isolada não garante anonimato.
+Catálogo com **36 livros**.
 
-## Formato
+| Campo | Descrição |
+|---|---|
+| `book_id` | Identificador do livro |
+| `title` | Título |
+| `author` | Autor |
+| `genres` | Gênero principal |
 
-CSV UTF-8, vírgula como separador, cabeçalho, ponto decimal e campos com vírgulas entre aspas. Identificadores são textos, preservando zeros iniciais. Somente as colunas abaixo são aceitas; extras bloqueiam a carga. Isso não detecta dados pessoais dentro de campos permitidos: revisão humana é necessária.
+### `raw/ratings.csv`
 
-### `ratings.csv`
+Conjunto com **345 avaliações hipotéticas**.
 
-Unidade: uma avaliação explícita vigente por par usuário–livro no recorte da coleta.
+| Campo | Descrição |
+|---|---|
+| `user_id` | Identificador anônimo do leitor hipotético |
+| `book_id` | Identificador do livro |
+| `rating` | Nota entre 1 e 5, em intervalos de 0,5 |
+| `interaction_date` | Data hipotética da interação |
 
-| Campo | Tipo | Regra |
-|---|---|---|
-| `user_id` | texto | Obrigatório, pseudônimo aleatório |
-| `book_id` | texto | Obrigatório, presente no catálogo |
-| `rating` | número | Proposta: 1 a 5, aceitando frações; zero não representa ausência |
-| `interaction_date` | data | Coluna obrigatória, valor pode estar vazio se desconhecido; quando presente: `AAAA-MM-DD` |
+### `processed/`
 
-Não inventar datas. Definir se representam registro de avaliação; não equivalem à conclusão de leitura. Datas de aplicação do formulário não são uma sequência histórica de consumo. Datas futuras são rejeitadas conforme a data de execução. Avaliar necessidade e risco de publicação; datas omitidas não são imputadas.
+Contém a versão validada e ordenada utilizada pela análise exploratória.
 
-Livros não avaliados são **desconhecidos**, não exemplos negativos. Não fabricar pares usuário–livro ou preencher notas ausentes com zero.
+## Construção
 
-### `books.csv`
+O levantamento foi produzido de forma determinística para fins acadêmicos. Cada leitor possui preferências diferentes por gêneros, e as notas foram geradas de modo a manter variação entre usuários, livros e categorias. Alguns livros também apresentam maior frequência de avaliações para representar a concentração comum em catálogos de leitura.
 
-Unidade: item do catálogo, com política de obra/edição documentada antes da coleta.
+O objetivo não é afirmar comportamento real dos usuários do Booklog, mas criar um cenário coerente para desenvolver e avaliar a metodologia da disciplina.
 
-| Campo | Tipo | Regra |
-|---|---|---|
-| `book_id` | texto | Obrigatório e único após remover cópias idênticas |
-| `title` | texto | Obrigatório |
-| `author` | texto | Pode estar ausente; múltiplos autores separados por `|` |
-| `genres` | texto | Pode estar ausente; gêneros separados por `|`, sem elementos vazios |
-| `description` | texto | Pode estar ausente; não é requisito da N1 |
+## Resumo
 
-Metadados de API complementam a coleta, mas não são interações originais. Registrar fonte, data de obtenção e condições de reutilização antes de publicar textos. Não unir edições automaticamente pelo título.
+- usuários: **30**
+- livros: **36**
+- avaliações: **345**
+- nota média: **3,62**
+- mediana: **3,5**
+- esparsidade: **68,1%**
+- valores ausentes: **0**
+- pares usuário-livro duplicados: **0**
 
-## Preparação implementada
-
-- Remover espaços externos e converter campos vazios em ausências.
-- Auditar ausências e cópias após normalização, antes de validar conteúdo.
-- Bloquear colunas faltantes/extras, chaves/títulos ausentes, notas inválidas, datas inválidas/futuras e livros inexistentes nas avaliações.
-- Remover somente linhas inteiramente idênticas após normalização, registrando contagens.
-- Bloquear identificadores de livro conflitantes e pares usuário–livro repetidos com notas/datas diferentes; resolver na fonte, sem escolher arbitrariamente a última nota.
-- Preservar ausências opcionais; não inventar textos, gêneros ou datas, nem ajustar transformações de aprendizado nesta EDA.
-
-## Publicação e rastreabilidade
-
-`raw` é um recorte original **já revisado para uso acadêmico**, não exportação irrestrita de produção. Registrar a origem real e revisar reidentificação, datas e direitos dos metadados antes de publicar. Conferir também notebook executado, figuras e tabelas por usuário.
-
-Dados e saídas são ignorados por padrão. Após revisar a versão pública, acrescentar exceções no `.gitignore` para os arquivos aprovados e versionar os CSVs, proveniência, notebook executado e resultados selecionados. `.gitignore` não protege arquivos já versionados. Se não puder publicar dados, acordar alternativa com o professor; não afirmar que o requisito foi cumprido.
-
-O manifesto técnico registra SHA-256 das entradas/saídas, versões e remoções; não substitui a proveniência da coleta. Não há CSV sintético em `data/`; exemplos em `tests/` verificam somente o código.
+A geração utiliza semente fixa (`42`), permitindo reprodução do mesmo cenário.
