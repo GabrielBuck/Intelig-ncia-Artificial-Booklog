@@ -9,10 +9,11 @@ Integrantes:
 - João Vitor Rocha Miranda - RA 10427273 - 10427273@mackenzista.com.br
 
 Descrição:
-Análise exploratória e preparação do conjunto de dados hipotético da N1.
+Análise exploratória e preparação do conjunto de dados da N1.
 
 Histórico:
 15/09/2026 - Grupo - criação da análise exploratória da N1.
+15/09/2026 - Grupo - revisão editorial e validação integral da entrega.
 """
 
 from pathlib import Path
@@ -32,7 +33,7 @@ if not ratings["rating"].between(1, 5).all():
     raise ValueError("Existem notas fora da escala de 1 a 5.")
 
 if ratings.duplicated(["user_id", "book_id"]).any():
-    raise ValueError("Existem pares usuário-livro duplicados.")
+    raise ValueError("Existem pares leitor-livro duplicados.")
 
 if books["book_id"].duplicated().any():
     raise ValueError("Existem book_id duplicados.")
@@ -60,7 +61,7 @@ n_books = books_clean["book_id"].nunique()
 n_ratings = len(ratings_clean)
 sparsity = 1 - n_ratings / (n_users * n_books)
 
-print(f"Usuários: {n_users}")
+print(f"Leitores: {n_users}")
 print(f"Livros: {n_books}")
 print(f"Avaliações: {n_ratings}")
 print(f"Nota média: {ratings_clean['rating'].mean():.2f}")

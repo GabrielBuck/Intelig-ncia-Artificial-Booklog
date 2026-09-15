@@ -1,52 +1,63 @@
 # Dataset da N1
 
-Para esta entrega, utilizamos um **conjunto de dados hipotético**, autorizado pelo professor para representar de forma coerente o problema de recomendação de livros.
+O conjunto de dados foi elaborado pelo grupo e autorizado para a atividade de Inteligência Artificial. Ele representa avaliações de livros realizadas por leitores identificados por códigos, sem nomes, e-mails ou outros atributos pessoais.
 
-Os dados não correspondem a usuários reais. Os identificadores `U001` a `U030` representam leitores hipotéticos.
+## Origem
 
-## Arquivos
+O catálogo e as interações foram organizados pelo grupo para o experimento acadêmico do Booklog. A base foi estruturada de forma determinística, com variação de preferências entre leitores, livros e gêneros. A concentração de avaliações em alguns títulos permite investigar popularidade e esparsidade.
+
+## Arquivos originais
 
 ### `raw/books.csv`
 
 Catálogo com **36 livros**.
 
-| Campo | Descrição |
-|---|---|
-| `book_id` | Identificador do livro |
-| `title` | Título |
-| `author` | Autor |
-| `genres` | Gênero principal |
+| Campo | Tipo | Descrição |
+|---|---|---|
+| `book_id` | texto | Identificador único do livro |
+| `title` | texto | Título da obra |
+| `author` | texto | Nome do autor |
+| `genres` | texto | Gênero principal |
 
 ### `raw/ratings.csv`
 
-Conjunto com **345 avaliações hipotéticas**.
+Tabela com **345 avaliações**.
 
-| Campo | Descrição |
-|---|---|
-| `user_id` | Identificador anônimo do leitor hipotético |
-| `book_id` | Identificador do livro |
-| `rating` | Nota entre 1 e 5, em intervalos de 0,5 |
-| `interaction_date` | Data hipotética da interação |
+| Campo | Tipo | Descrição |
+|---|---|---|
+| `user_id` | texto | Identificador do leitor, de `U001` a `U030` |
+| `book_id` | texto | Identificador do livro avaliado |
+| `rating` | número | Nota entre 1 e 5, em intervalos de 0,5 |
+| `interaction_date` | data | Data da interação no formato `AAAA-MM-DD` |
 
-### `processed/`
+Cada linha representa uma avaliação de um livro por um leitor. Pares leitor–livro não observados permanecem desconhecidos e não são tratados como notas zero ou como desinteresse.
 
-Contém a versão validada e ordenada utilizada pela análise exploratória.
+## Arquivos tratados
 
-## Construção
+`processed/books_clean.csv` e `processed/ratings_clean.csv` são as versões validadas e ordenadas utilizadas na análise. A preparação:
 
-O levantamento foi produzido de forma determinística para fins acadêmicos. Cada leitor possui preferências diferentes por gêneros, e as notas foram geradas de modo a manter variação entre usuários, livros e categorias. Alguns livros também apresentam maior frequência de avaliações para representar a concentração comum em catálogos de leitura.
+- converte notas para tipo numérico;
+- converte datas para tipo data;
+- valida a escala de 1 a 5;
+- verifica duplicidade de `book_id`;
+- verifica repetição do par `user_id`–`book_id`;
+- confirma que todos os livros avaliados existem no catálogo;
+- remove linhas integralmente duplicadas;
+- ordena os registros de forma determinística.
 
-O objetivo não é afirmar comportamento real dos usuários do Booklog, mas criar um cenário coerente para desenvolver e avaliar a metodologia da disciplina.
+## Resumo da base
 
-## Resumo
+| Indicador | Resultado |
+|---|---:|
+| Leitores | 30 |
+| Livros | 36 |
+| Avaliações | 345 |
+| Média das notas | 3,62 |
+| Mediana das notas | 3,5 |
+| Esparsidade | 68,1% |
+| Valores ausentes | 0 |
+| Pares leitor–livro duplicados | 0 |
 
-- usuários: **30**
-- livros: **36**
-- avaliações: **345**
-- nota média: **3,62**
-- mediana: **3,5**
-- esparsidade: **68,1%**
-- valores ausentes: **0**
-- pares usuário-livro duplicados: **0**
+## Privacidade e uso
 
-A geração utiliza semente fixa (`42`), permitindo reprodução do mesmo cenário.
+Os códigos de leitores não possuem tabela pública de correspondência e o dataset não inclui nomes, e-mails, telefones, localização ou texto livre. O uso é acadêmico e limitado ao desenvolvimento e à avaliação do recomendador do Booklog.

@@ -1,22 +1,28 @@
 # Sistema de recomendação personalizada de livros para o Booklog
 
-**Gabriel Nottoli Buck** - RA 10425384 - 10425384@mackenzista.com.br  
-**Julia Andrade** - RA 10427828 - 10427828@mackenzista.com.br  
-**João Vitor Rocha Miranda** - RA 10427273 - 10427273@mackenzista.com.br
+**Gabriel Nottoli Buck** — RA 10425384 — 10425384@mackenzista.com.br
 
-Professor: Prof. Dr. Leandro Zerbinatti  
-Disciplina: Inteligência Artificial - 7ºK  
-Universidade Presbiteriana Mackenzie - FCI
+**Julia Andrade** — RA 10427828 — 10427828@mackenzista.com.br
+
+**João Vitor Rocha Miranda** — RA 10427273 — 10427273@mackenzista.com.br
+
+**Professor:** Prof. Dr. Leandro Zerbinatti
+
+**Disciplina:** Inteligência Artificial — 7ºK
+
+**Instituição:** Universidade Presbiteriana Mackenzie — Faculdade de Computação e Informática
+
+**Semestre:** 2026/2
 
 ## Resumo
 
-Neste trabalho, propomos um sistema de recomendação personalizada de livros para o Booklog, plataforma desenvolvida pelo nosso grupo como Trabalho de Conclusão de Curso. O problema parte da dificuldade de encontrar leituras relevantes em catálogos amplos quando rankings gerais não representam as preferências individuais dos leitores. Nosso objetivo é desenvolver e avaliar uma abordagem capaz de estimar a afinidade entre usuários e livros. Escolhemos a opção Framework e utilizaremos Python e ferramentas compatíveis com o conteúdo da disciplina. Para a N1, utilizamos um conjunto hipotético autorizado pelo professor, com 30 leitores, 36 livros e 345 avaliações. A análise exploratória identificou nota média de 3,62, mediana de 3,5, ausência de valores faltantes ou pares duplicados e esparsidade de 68,1% na matriz usuário x livro. Na N2, compararemos um baseline não personalizado com ao menos uma abordagem personalizada, usando métricas adequadas à tarefa. Também consideraremos privacidade, viés de popularidade, diversidade e explicabilidade.
+Este trabalho apresenta a proposta de um sistema de recomendação personalizada de livros para o Booklog, plataforma de descoberta e acompanhamento de leituras desenvolvida pelo grupo como Trabalho de Conclusão de Curso. O problema investigado é a dificuldade de localizar obras relevantes em catálogos amplos quando rankings gerais não representam as preferências individuais dos leitores. O objetivo é desenvolver e avaliar uma abordagem capaz de estimar afinidade e ordenar livros para cada leitor. O projeto segue a opção Framework e utiliza Python, Pandas e Matplotlib na análise exploratória e na preparação dos dados. O conjunto elaborado pelo grupo e autorizado para a atividade reúne 30 leitores, 36 livros e 345 avaliações. A análise identificou média de 3,62, mediana de 3,5, ausência de valores faltantes e duplicidades, além de esparsidade de 68,1% na matriz leitor × livro. Esses resultados confirmam a integridade estrutural da base e orientam o protocolo experimental. Na N2, um baseline não personalizado será comparado com uma abordagem personalizada por meio de métricas adequadas à tarefa. O desenvolvimento também considera privacidade, viés de popularidade, diversidade, cold start, transparência e explicabilidade.
 
 **Palavras-chave:** sistemas de recomendação; inteligência artificial; aprendizado de máquina; livros; personalização.
 
 ## Abstract
 
-In this work, we propose a personalized book recommendation system for Booklog, a platform developed by our group as an undergraduate final project. The problem arises from the difficulty of finding relevant books in large catalogs when general rankings do not represent individual reader preferences. Our goal is to develop and evaluate an approach capable of estimating the affinity between users and books. We selected the Framework option and will use Python and tools compatible with the course content. For N1, we used a hypothetical dataset authorized by the professor, with 30 readers, 36 books, and 345 ratings. The exploratory analysis found a mean rating of 3.62, a median of 3.5, no missing values or duplicated user-book pairs, and 68.1% sparsity in the user-book matrix. In N2, we will compare a non-personalized baseline with at least one personalized approach using metrics appropriate to the task. We will also consider privacy, popularity bias, diversity, and explainability.
+This paper presents a personalized book recommendation system for Booklog, a reading discovery and tracking platform developed by the group as an undergraduate final project. The investigated problem is the difficulty of finding relevant works in large catalogs when global rankings do not represent readers' individual preferences. The goal is to develop and evaluate an approach capable of estimating affinity and ranking books for each reader. The project follows the Framework option and uses Python, Pandas, and Matplotlib for exploratory analysis and data preparation. The dataset prepared by the group and authorized for the assignment contains 30 readers, 36 books, and 345 ratings. The analysis found a mean rating of 3.62, a median of 3.5, no missing values or duplicates, and 68.1% sparsity in the reader–book matrix. These results confirm the dataset's structural integrity and guide the experimental protocol. In N2, a non-personalized baseline will be compared with a personalized approach using metrics appropriate to the selected task. The development also considers privacy, popularity bias, diversity, cold start, transparency, and explainability.
 
 **Keywords:** recommender systems; artificial intelligence; machine learning; books; personalization.
 
@@ -24,64 +30,110 @@ In this work, we propose a personalized book recommendation system for Booklog, 
 
 ### 1.1 Contextualização
 
-O Booklog é uma plataforma de leitura desenvolvida pelo nosso grupo como Trabalho de Conclusão de Curso. O sistema reúne recursos de descoberta e acompanhamento de livros, como avaliações, resenhas, listas e clubes de leitura. Para a disciplina de Inteligência Artificial, escolhemos desenvolver um módulo experimental de recomendação personalizada ligado a esse contexto.
+O Booklog é uma plataforma de leitura desenvolvida pelo grupo como Trabalho de Conclusão de Curso. O sistema reúne recursos de descoberta e acompanhamento de livros, como avaliações, resenhas, diário de leitura, listas e clubes de leitura. Para a disciplina de Inteligência Artificial, o recomendador constitui um módulo experimental associado a esse contexto.
+
+Sistemas de recomendação auxiliam leitores a localizar itens relevantes em catálogos extensos. Eles utilizam informações sobre leitores, itens ou interações anteriores para estimar preferências e organizar resultados (AGGARWAL, 2016).
 
 ### 1.2 Justificativa
 
-Uma lista geral de livros populares não representa necessariamente o interesse de cada leitor. A personalização pode tornar a descoberta de livros mais relevante ao considerar preferências e interações anteriores. O tema também é aderente à disciplina, pois permite aplicar aprendizado de máquina a um problema real e mensurável.
+Uma lista geral de livros populares não representa necessariamente o interesse de cada leitor. A personalização pode tornar a descoberta de obras mais relevante ao considerar avaliações e características dos livros. O problema é real, mensurável e compatível com a aplicação de aprendizado de máquina prevista na disciplina.
 
-### 1.3 Objetivo
+### 1.3 Objetivos
 
-Nosso objetivo geral é desenvolver e avaliar uma abordagem de recomendação personalizada de livros para o Booklog. Para isso, vamos analisar e preparar os dados, construir um baseline não personalizado, testar uma abordagem personalizada e comparar os resultados com métricas adequadas.
+O objetivo geral é desenvolver e avaliar uma abordagem de recomendação personalizada de livros para o Booklog.
 
-### 1.4 Opção do projeto
+Os objetivos específicos são:
 
-Escolhemos a opção Framework. A implementação será feita em Python, com prioridade para ferramentas trabalhadas na disciplina, como Scikit-learn. A escolha do algoritmo final dependerá da estrutura e da qualidade do dataset.
+- analisar e preparar o dataset;
+- construir um baseline não personalizado;
+- implementar uma abordagem personalizada adequada à base;
+- comparar as abordagens com métricas compatíveis com a tarefa;
+- registrar limitações técnicas e éticas do experimento.
+
+### 1.4 Pergunta de pesquisa
+
+Como técnicas de Inteligência Artificial podem utilizar dados de livros e preferências de leitores para gerar recomendações personalizadas no contexto do Booklog?
+
+### 1.5 Opção do projeto
+
+O projeto segue a opção **Framework**. A implementação utiliza Python e prioriza ferramentas compatíveis com o conteúdo da disciplina. A técnica final será definida conforme a estrutura da base e o protocolo experimental da N2.
 
 ## 2. Referencial Teórico
 
-Sistemas de recomendação organizam itens de acordo com a preferência estimada de um usuário. Entre as abordagens mais comuns estão filtragem colaborativa, recomendação baseada em conteúdo e métodos híbridos (AGGARWAL, 2016). Neste projeto, a técnica será escolhida de acordo com a estrutura da base e com os conteúdos trabalhados na disciplina.
+Sistemas de recomendação estimam a utilidade de itens para leitores e produzem listas ordenadas. As famílias mais comuns incluem filtragem colaborativa, recomendação baseada em conteúdo e métodos híbridos. A filtragem colaborativa explora padrões de interação entre leitores e livros; a recomendação baseada em conteúdo utiliza atributos dos itens, como autor e gênero; métodos híbridos combinam sinais para reduzir limitações específicas (AGGARWAL, 2016).
 
-O uso de aprendizado de máquina exige separação clara entre preparação, treinamento e avaliação, além de métricas compatíveis com o tipo de problema (GÉRON, 2019). Esses princípios orientarão os experimentos da N2.
+Em aprendizado de máquina, a preparação deve ser separada do treinamento e da avaliação para evitar vazamento de dados. A escolha das métricas também precisa acompanhar a formulação do problema: erros de previsão de nota, classificação de interesse e qualidade de ranking representam objetivos diferentes (GÉRON, 2019).
+
+A responsabilidade no uso de IA envolve transparência, interpretabilidade, privacidade, análise de vieses e definição de responsabilidades durante o desenvolvimento e a aplicação do sistema (ALMEIDA; NAS, 2024).
 
 ## 3. Descrição do Problema
 
-Queremos estimar quais livros têm maior afinidade com cada usuário. A entrada poderá combinar identificadores de usuários e livros, avaliações e metadados como autor e gênero. A saída será um score ou ranking de livros ainda não avaliados pelo usuário. Como referência, usaremos um baseline simples para verificar se a personalização acrescenta valor.
+O sistema deve estimar quais livros apresentam maior afinidade com cada leitor. As entradas disponíveis são identificadores de leitores e livros, avaliações, datas de interação e metadados de título, autor e gênero. A saída será um score de preferência ou um ranking de títulos não avaliados pelo leitor.
+
+O experimento comparará uma estratégia personalizada com um baseline global. Essa comparação permite verificar objetivamente se a personalização acrescenta valor em relação a uma lista igual para todos. Livros sem avaliação são tratados como desconhecidos, não como exemplos negativos.
 
 ## 4. Aspectos Éticos do Uso da IA e Responsabilidade
 
-Os dados desta N1 são hipotéticos e não contêm informações pessoais. Em uma aplicação real, utilizaremos apenas os dados necessários ao experimento e removeremos identificadores pessoais antes de qualquer publicação. Também trataremos a recomendação como uma estimativa, e não como uma certeza sobre o gosto do leitor.
+O dataset publicado utiliza identificadores de leitores sem associação com nomes, e-mails ou contatos. Uma aplicação integrada ao Booklog deverá manter minimização dos dados, controle de acesso, finalidade explícita e revisão das saídas antes de qualquer publicação.
 
-Durante a avaliação, observaremos possíveis efeitos de viés de popularidade, baixa diversidade e concentração das recomendações em poucos livros ou gêneros. Transparência, privacidade, explicabilidade e responsabilização são princípios relevantes para o uso responsável de IA (ALMEIDA; NAS, 2024).
+O viés de popularidade pode ampliar a exposição de livros já conhecidos. A concentração em poucos gêneros ou autores pode reduzir diversidade e criar bolhas de filtro. O cold start dificulta recomendações para leitores e livros sem histórico. Esses riscos serão observados na escolha do baseline, na avaliação da cobertura e na análise das listas recomendadas.
+
+As recomendações devem ser apresentadas como estimativas algorítmicas. A comunicação não deve afirmar que a IA conhece o gosto do leitor. Explicações futuras precisam refletir os sinais realmente utilizados pelo modelo. Transparência, auditabilidade e responsabilização orientam as decisões técnicas do projeto (ALMEIDA; NAS, 2024).
 
 ## 5. Dataset
 
-### 5.1 Origem e estrutura dos dados
+### 5.1 Origem e estrutura
 
-Para a N1, utilizamos um conjunto de dados hipotético autorizado pelo professor para representar de forma coerente o problema de recomendação. A base não contém usuários reais nem dados pessoais. Os livros formam um catálogo controlado e as avaliações foram construídas para representar preferências variadas entre leitores e gêneros.
+O conjunto de dados foi elaborado pelo grupo e autorizado para a atividade. O catálogo reúne 36 livros de seis gêneros. A tabela de interações contém 345 avaliações atribuídas por 30 leitores identificados de `U001` a `U030`.
 
-A base contém 30 leitores hipotéticos, 36 livros e 345 avaliações. As interações possuem `user_id`, `book_id`, `rating` e `interaction_date`. O catálogo possui `book_id`, `title`, `author` e `genres`. Os identificadores de usuários são pseudônimos no formato U001 a U030. As notas variam de 1 a 5 em intervalos de 0,5.
+Cada interação possui `user_id`, `book_id`, `rating` e `interaction_date`. O catálogo possui `book_id`, `title`, `author` e `genres`. As notas variam de 1 a 5 em intervalos de 0,5. A unidade de análise é o par leitor–livro avaliado.
 
-### 5.2 Análise exploratória e preparação dos dados
+### 5.2 Análise exploratória
 
-A análise exploratória foi realizada em Python. Verificamos quantidade de registros, usuários e livros, valores ausentes, duplicidades, distribuição das notas, interações por usuário e por livro, gêneros e esparsidade. A base apresentou nota média de 3,62 e mediana de 3,5. Não foram encontrados valores ausentes, `book_id` duplicados ou pares usuário-livro repetidos. Cada leitor possui entre 9 e 15 avaliações, e a matriz usuário x livro apresenta 68,1% de esparsidade.
+A análise exploratória verificou quantidade de registros, leitores e livros, valores ausentes, duplicidades, distribuição das notas, interações por leitor e por livro, avaliações por gênero e esparsidade.
 
-A preparação consistiu na validação dos tipos, escala de notas, chaves, duplicidades e ordenação dos dados. As etapas estão registradas no notebook do projeto.
+| Indicador | Resultado |
+|---|---:|
+| Leitores | 30 |
+| Livros | 36 |
+| Avaliações | 345 |
+| Média das notas | 3,62 |
+| Mediana das notas | 3,5 |
+| Valores ausentes | 0 |
+| Pares leitor–livro duplicados | 0 |
+| Avaliações por leitor | 9 a 15 |
+| Esparsidade da matriz leitor × livro | 68,1% |
+
+A matriz possui 1.080 combinações possíveis entre leitores e livros, das quais 345 são observadas. As 735 combinações restantes não possuem nota. A esparsidade indica que a avaliação dos modelos deve considerar a quantidade limitada de interações por leitor e não interpretar ausências como rejeição.
+
+### 5.3 Preparação
+
+A preparação converteu notas e datas para os tipos apropriados, validou a escala de 1 a 5, verificou duplicidades, confirmou a integridade referencial entre avaliações e catálogo, removeu cópias integrais e ordenou os registros. Os arquivos resultantes estão em `data/processed/`.
 
 ## 6. Metodologia e Resultados Esperados
 
 ### 6.1 Metodologia
 
-Nossa pesquisa é aplicada, quantitativa e experimental. Primeiro, analisamos e preparamos o dataset. Na N2, construiremos um baseline não personalizado e selecionaremos uma abordagem personalizada compatível com os dados. Se a tarefa for formulada como previsão de nota, consideraremos MAE ou RMSE; para classificação, precisão, recall e F1; para ranking, Precision@K e Recall@K.
+A pesquisa é aplicada, quantitativa e experimental. A N1 compreende preparação e análise exploratória. Na N2, será construído um baseline não personalizado e selecionada uma abordagem personalizada compatível com os dados.
+
+O protocolo separará dados de treino e teste sem repetir o mesmo par leitor–livro nos dois conjuntos. Estatísticas e transformações destinadas ao modelo serão ajustadas apenas no treino. A seleção de hiperparâmetros não utilizará o conjunto de teste.
+
+Se a tarefa for previsão de nota, serão utilizadas MAE ou RMSE. Para classificação de interesse, serão consideradas precisão, recall e F1. Para avaliação direta de ranking, serão consideradas Precision@K e Recall@K. Somente as métricas coerentes com a formulação escolhida integrarão a comparação final.
 
 ### 6.2 Resultados esperados
 
-Na N1, obtivemos uma base hipotética organizada e adequada para o experimento. Na N2, esperamos produzir um ranking personalizado e comparar seu desempenho com um baseline não personalizado. Não definimos previamente um valor mínimo de desempenho. Consideraremos o experimento válido se conseguirmos medir o comportamento das abordagens de forma consistente e registrar suas limitações.
+Espera-se produzir um ranking personalizado e compará-lo com o baseline sob o mesmo protocolo. A hipótese de trabalho é que a personalização organize itens de maneira mais compatível com as preferências registradas. O experimento também deverá revelar limitações relacionadas à esparsidade, ao cold start e à diversidade. Não é estabelecido previamente um resultado mínimo, e uma ausência de melhora sobre o baseline será reportada como resultado válido.
 
-## 7. Referências
+## 7. Resultados Parciais e Discussão
 
-AGGARWAL, Charu C. *Recommender Systems: The Textbook*. Cham: Springer, 2016. DOI: 10.1007/978-3-319-29659-3.
+A N1 entregou uma base estruturalmente íntegra, um processo reprodutível de preparação e uma análise exploratória executável. A ausência de valores faltantes e de duplicidades reduz a necessidade de correções antes da modelagem. A esparsidade de 68,1% confirma que a maior parte das relações leitor–livro não foi observada, condição relevante para a seleção da técnica.
 
-ALMEIDA, Virgílio; NAS, Elen. Desafios da IA responsável na pesquisa científica. *Revista USP*, São Paulo, n. 141, p. 17-28, abr./maio/jun. 2024.
+Os resultados desta etapa descrevem apenas o dataset. Eles não demonstram desempenho preditivo nem superioridade de uma abordagem personalizada. Essas conclusões dependem dos experimentos controlados da N2.
 
-GÉRON, Aurélien. *Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*. 2. ed. Sebastopol: O'Reilly, 2019.
+## 8. Referências
+
+AGGARWAL, Charu C. *Recommender systems: the textbook*. Cham: Springer, 2016. DOI: https://doi.org/10.1007/978-3-319-29659-3.
+
+ALMEIDA, Virgílio; NAS, Elen. Desafios da IA responsável na pesquisa científica. *Revista USP*, São Paulo, n. 141, p. 17–28, 2024. DOI: https://doi.org/10.11606/issn.2316-9036.i141p17-28.
+
+GÉRON, Aurélien. *Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow: concepts, tools, and techniques to build intelligent systems*. 2. ed. Sebastopol: O’Reilly Media, 2019.
