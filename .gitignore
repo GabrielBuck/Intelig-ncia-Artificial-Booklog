@@ -5,9 +5,4 @@ __pycache__/
 .env
 .env.*
 .DS_Store
-# Publicar apenas dados e saídas explicitamente revisados.
-data/raw/*
-!data/raw/README.md
-data/processed/*
-!data/processed/README.md
-results/
+Thumbs.db
