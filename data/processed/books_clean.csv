@@ -1,0 +1,37 @@
+book_id,title,author,genres
+B001,1984,George Orwell,Distopia
+B002,A Revolução dos Bichos,George Orwell,Distopia
+B003,Admirável Mundo Novo,Aldous Huxley,Distopia
+B004,Fahrenheit 451,Ray Bradbury,Distopia
+B005,O Conto da Aia,Margaret Atwood,Distopia
+B006,Jogos Vorazes,Suzanne Collins,Distopia
+B007,O Hobbit,J. R. R. Tolkien,Fantasia
+B008,A Sociedade do Anel,J. R. R. Tolkien,Fantasia
+B009,Harry Potter e a Pedra Filosofal,J. K. Rowling,Fantasia
+B010,O Nome do Vento,Patrick Rothfuss,Fantasia
+B011,As Crônicas de Nárnia,C. S. Lewis,Fantasia
+B012,O Feiticeiro de Terramar,Ursula K. Le Guin,Fantasia
+B013,Fundação,Isaac Asimov,Ficção Científica
+B014,Duna,Frank Herbert,Ficção Científica
+B015,"Eu, Robô",Isaac Asimov,Ficção Científica
+B016,Neuromancer,William Gibson,Ficção Científica
+B017,O Guia do Mochileiro das Galáxias,Douglas Adams,Ficção Científica
+B018,A Mão Esquerda da Escuridão,Ursula K. Le Guin,Ficção Científica
+B019,Orgulho e Preconceito,Jane Austen,Romance
+B020,Jane Eyre,Charlotte Brontë,Romance
+B021,Persuasão,Jane Austen,Romance
+B022,Como Eu Era Antes de Você,Jojo Moyes,Romance
+B023,Teto para Dois,Beth O'Leary,Romance
+B024,Um Dia,David Nicholls,Romance
+B025,Assassinato no Expresso do Oriente,Agatha Christie,Mistério
+B026,E Não Sobrou Nenhum,Agatha Christie,Mistério
+B027,O Silêncio dos Inocentes,Thomas Harris,Mistério
+B028,Garota Exemplar,Gillian Flynn,Mistério
+B029,O Código Da Vinci,Dan Brown,Mistério
+B030,A Paciente Silenciosa,Alex Michaelides,Mistério
+B031,Dom Casmurro,Machado de Assis,Clássico
+B032,Memórias Póstumas de Brás Cubas,Machado de Assis,Clássico
+B033,O Cortiço,Aluísio Azevedo,Clássico
+B034,A Hora da Estrela,Clarice Lispector,Clássico
+B035,O Retrato de Dorian Gray,Oscar Wilde,Clássico
+B036,Frankenstein,Mary Shelley,Clássico
