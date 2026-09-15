@@ -57,7 +57,8 @@ A esparsidade confirma que a maior parte das combinações possíveis entre leit
 │       └── ratings_clean.csv
 ├── docs/
 │   └── n1/
-│       └── Relatorio_N1_Booklog_IA.pdf
+│       ├── README.md
+│       └── Relatorio_N1_Booklog_IA.md
 ├── notebooks/
 │   └── 01_analise_exploratoria.ipynb
 ├── src/
