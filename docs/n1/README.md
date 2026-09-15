@@ -1,6 +1,6 @@
 # Entrega N1
 
-Esta pasta contém o relatório da N1 no template fornecido pela FCI.
+Esta pasta reúne a versão textual do relatório da N1. A versão oficial em PDF, preenchida no template da FCI, é utilizada para o envio no AVA.
 
 O relatório apresenta:
 
