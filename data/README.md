@@ -1,34 +1,38 @@
 # Dataset da N1
 
-O conjunto de dados representa o cenário de uma plataforma de leitura, com leitores, catálogo de livros e interações leitor-livro. Os identificadores são códigos sem associação pública com dados pessoais.
+O conjunto de dados representa o cenário de uma plataforma de leitura para investigação de recomendação personalizada de livros. Os leitores são identificados por códigos anonimizados e não são armazenados dados pessoais diretamente identificáveis.
 
-## Origem
+## Estrutura do conjunto de dados
 
-A estrutura foi organizada pelo grupo para o experimento acadêmico do Booklog. A base foi preparada para permitir análise exploratória de comportamento de leitura, distribuição de avaliações, popularidade e esparsidade da matriz leitor × livro.
+A base é organizada em três entidades principais:
+
+- leitores: características gerais de perfil utilizadas como contexto de recomendação;
+- livros: informações do catálogo disponível;
+- interações: registros de comportamento entre leitores e livros.
 
 ## Arquivos originais
 
 ### `raw/readers.csv`
 
-Cadastro anonimizado de leitores.
+Perfil anonimizado dos leitores.
 
 | Campo | Descrição |
 |---|---|
-| `reader_id` | Identificador do leitor |
-| `age_range` | Faixa etária agregada |
-| `favorite_genre` | Gênero declarado como preferência |
+| `reader_id` | Identificador único anonimizado |
+| `age_range` | Faixa etária agrupada |
+| `favorite_genre` | Gênero preferido informado |
 | `reading_frequency` | Frequência de leitura |
 | `preferred_format` | Formato preferido |
 | `registration_date` | Data de cadastro |
 
 ### `raw/books.csv`
 
-Catálogo de livros.
+Catálogo de livros utilizado no experimento.
 
 | Campo | Descrição |
 |---|---|
-| `book_id` | Identificador único do livro |
-| `title` | Título da obra |
+| `book_id` | Identificador único da obra |
+| `title` | Título do livro |
 | `author` | Autor |
 | `main_genre` | Gênero principal |
 | `publication_year` | Ano de publicação |
@@ -37,19 +41,19 @@ Catálogo de livros.
 
 ### `raw/ratings.csv`
 
-Interações entre leitores e livros.
+Interações leitor-livro.
 
 | Campo | Descrição |
 |---|---|
-| `reader_id` | Identificador do leitor |
-| `book_id` | Identificador do livro |
-| `rating` | Nota entre 1 e 5 |
+| `reader_id` | Leitor relacionado |
+| `book_id` | Livro relacionado |
+| `rating` | Nota atribuída |
 | `interaction_type` | Tipo de interação |
 | `interaction_date` | Data da interação |
 
-Cada registro representa uma interação observada. Ausência de interação não representa nota zero ou rejeição.
+Cada registro representa uma interação observada. A ausência de interação não representa nota zero ou rejeição.
 
-## Estrutura esperada da base
+## Dimensão da base
 
 | Indicador | Quantidade |
 |---|---:|
@@ -59,15 +63,19 @@ Cada registro representa uma interação observada. Ausência de interação nã
 
 ## Preparação dos dados
 
-A etapa de preparação deve:
+A etapa de preparação contempla:
 
-- validar tipos e colunas obrigatórias;
-- verificar valores ausentes;
-- remover duplicidades;
-- validar notas dentro da escala permitida;
-- confirmar integridade entre livros e avaliações;
-- gerar arquivos processados utilizados na análise.
+- validação dos tipos dos atributos;
+- tratamento de valores ausentes;
+- verificação de duplicidades;
+- validação da escala de notas;
+- integridade entre leitores, livros e interações;
+- geração dos arquivos processados utilizados na análise exploratória.
+
+## Relação com o projeto de IA
+
+A estrutura permite investigar padrões de preferência entre leitores e livros e prepara o conjunto para futuras abordagens de recomendação personalizada, incluindo métodos baseados em conteúdo, filtragem colaborativa ou modelos híbridos.
 
 ## Privacidade e uso
 
-O dataset não utiliza nomes, e-mails, telefones ou outros identificadores pessoais. Os dados são utilizados exclusivamente para o desenvolvimento acadêmico do sistema de recomendação personalizada do Booklog.
+Os identificadores utilizados não possuem associação pública com pessoas reais. Não são armazenados nomes, e-mails, telefones ou informações sensíveis. O uso é exclusivamente acadêmico no contexto do Booklog AI.
