@@ -1,0 +1,6 @@
+reader_id,age_range,favorite_genre,reading_frequency,preferred_format,registration_date
+U001,18-25,Fantasia,Semanal,Fisico,2026-01-10
+U002,26-35,Romance,Mensal,Digital,2026-01-15
+U003,18-25,Ficcao Cientifica,Semanal,Ambos,2026-02-01
+U004,36-45,Historia,Mensal,Fisico,2026-02-12
+U005,26-35,Fantasia,Quinzenal,Ambos,2026-03-03
