@@ -6,6 +6,8 @@
 
 **João Vitor Rocha Miranda** — RA 10427273 — 10427273@mackenzista.com.br
 
+**Juan Nacif** — RA 10428509
+
 **Professor:** Prof. Dr. Leandro Zerbinatti
 
 **Disciplina:** Inteligência Artificial — 7ºK

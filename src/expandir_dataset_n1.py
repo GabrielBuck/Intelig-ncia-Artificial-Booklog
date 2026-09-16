@@ -5,6 +5,7 @@ Integrantes:
 - Gabriel Nottoli Buck - RA 10425384
 - Julia Andrade - RA 10427828
 - Joao Vitor Rocha Miranda - RA 10427273
+- Juan Nacif - RA 10428509
 
 Descricao:
 Script reprodutivel para gerar a estrutura de dados utilizada na analise

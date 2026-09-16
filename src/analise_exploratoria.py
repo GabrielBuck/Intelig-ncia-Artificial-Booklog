@@ -7,6 +7,7 @@ Integrantes:
 - Gabriel Nottoli Buck - RA 10425384 - 10425384@mackenzista.com.br
 - Julia Andrade - RA 10427828 - 10427828@mackenzista.com.br
 - João Vitor Rocha Miranda - RA 10427273 - 10427273@mackenzista.com.br
+- Juan Nacif - RA 10428509
 
 Descrição:
 Análise exploratória e preparação do conjunto de dados da N1.
