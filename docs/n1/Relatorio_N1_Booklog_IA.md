@@ -6,7 +6,7 @@
 
 **João Vitor Rocha Miranda** — RA 10427273 — 10427273@mackenzista.com.br
 
-**Juan Nacif** — RA 10428509
+**Juan Nacif** — RA 10428509 — 10428509@mackenzista.com.br
 
 **Professor:** Prof. Dr. Leandro Zerbinatti
 

@@ -9,7 +9,7 @@ Projeto da disciplina **Inteligência Artificial — 7ºK**, da Faculdade de Com
 | Gabriel Nottoli Buck | 10425384 | 10425384@mackenzista.com.br |
 | Julia Andrade | 10427828 | 10427828@mackenzista.com.br |
 | João Vitor Rocha Miranda | 10427273 | 10427273@mackenzista.com.br |
-| Juan Nacif | 10428509 | Não informado |
+| Juan Nacif | 10428509 | 10428509@mackenzista.com.br |
 
 **Professor:** Prof. Dr. Leandro Zerbinatti
 
