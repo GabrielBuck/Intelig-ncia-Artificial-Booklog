@@ -1,81 +1,43 @@
 # Dataset da N1
 
-O conjunto de dados representa o cenário de uma plataforma de leitura para investigação de recomendação personalizada de livros. Os leitores são identificados por códigos anonimizados e não são armazenados dados pessoais diretamente identificáveis.
+Base elaborada pelo grupo para a atividade acadêmica de recomendação de livros. Os identificadores não possuem associação pública com pessoas reais. Os dados não devem ser apresentados como comportamento real coletado do Booklog.
 
-## Estrutura do conjunto de dados
+## Arquivos publicados
 
-A base é organizada em três entidades principais:
+| Arquivo | Linhas | Campos |
+|---|---:|---|
+| `raw/books.csv` | 36 | `book_id`, `title`, `author`, `genres` |
+| `raw/ratings.csv` | 345 | `user_id`, `book_id`, `rating`, `interaction_date` |
+| `raw/readers.csv` | 5 | `reader_id`, `age_range`, `favorite_genre`, `reading_frequency`, `preferred_format`, `registration_date` |
 
-- leitores: características gerais de perfil utilizadas como contexto de recomendação;
-- livros: informações do catálogo disponível;
-- interações: registros de comportamento entre leitores e livros.
+`book_id` relaciona avaliações ao catálogo. `user_id` identifica os 30 leitores distintos das avaliações, de U001 a U030. `rating` contém notas de 1 a 5 em intervalos de 0,5; `interaction_date` registra a data. O catálogo contém título, autor e gênero.
 
-## Arquivos originais
+O arquivo de perfis contém somente U001 a U005 e não participa da análise atual. Seus campos descrevem faixa etária, gênero favorito, frequência, formato preferido e data de cadastro. Não há um perfil completo para cada leitor avaliado.
 
-### `raw/readers.csv`
+## Resultados verificados
 
-Perfil anonimizado dos leitores.
-
-| Campo | Descrição |
-|---|---|
-| `reader_id` | Identificador único anonimizado |
-| `age_range` | Faixa etária agrupada |
-| `favorite_genre` | Gênero preferido informado |
-| `reading_frequency` | Frequência de leitura |
-| `preferred_format` | Formato preferido |
-| `registration_date` | Data de cadastro |
-
-### `raw/books.csv`
-
-Catálogo de livros utilizado no experimento.
-
-| Campo | Descrição |
-|---|---|
-| `book_id` | Identificador único da obra |
-| `title` | Título do livro |
-| `author` | Autor |
-| `main_genre` | Gênero principal |
-| `publication_year` | Ano de publicação |
-| `pages` | Quantidade de páginas |
-| `language` | Idioma |
-
-### `raw/ratings.csv`
-
-Interações leitor-livro.
-
-| Campo | Descrição |
-|---|---|
-| `reader_id` | Leitor relacionado |
-| `book_id` | Livro relacionado |
-| `rating` | Nota atribuída |
-| `interaction_type` | Tipo de interação |
-| `interaction_date` | Data da interação |
-
-Cada registro representa uma interação observada. A ausência de interação não representa nota zero ou rejeição.
-
-## Dimensão da base
-
-| Indicador | Quantidade |
+| Indicador | Resultado |
 |---|---:|
-| Leitores | 150 |
-| Livros | 200 |
-| Interações | 3000 |
+| Leitores distintos nas avaliações | 30 |
+| Livros | 36 |
+| Avaliações | 345 |
+| Média | 3,62 |
+| Mediana | 3,5 |
+| Pares leitor-livro duplicados | 0 |
+| Valores ausentes nas tabelas analisadas | 0 |
+| Avaliações por leitor | 9 a 15 |
+| Esparsidade | 68,1% |
 
-## Preparação dos dados
+Das 1.080 combinações possíveis, 735 não possuem avaliação. Ausência de nota não significa rejeição.
 
-A etapa de preparação contempla:
+## Preparação e reprodução
 
-- validação dos tipos dos atributos;
-- tratamento de valores ausentes;
-- verificação de duplicidades;
-- validação da escala de notas;
-- integridade entre leitores, livros e interações;
-- geração dos arquivos processados utilizados na análise exploratória.
+Execute `python src/analise_exploratoria.py` na raiz do projeto após instalar `requirements.txt`. O script valida notas, datas, duplicidades e referências ao catálogo, ordena registros e gera `processed/books_clean.csv` e `processed/ratings_clean.csv`. Não gera `readers_clean.csv` nem valida a cobertura dos perfis.
 
-## Relação com o projeto de IA
+## Expansão experimental
 
-A estrutura permite investigar padrões de preferência entre leitores e livros e prepara o conjunto para futuras abordagens de recomendação personalizada, incluindo métodos baseados em conteúdo, filtragem colaborativa ou modelos híbridos.
+O gerador `src/expandir_dataset_n1.py` é um protótipo sintético de 150 perfis, 200 livros fictícios e 3.000 registros. Os CSVs atuais não correspondem a essa expansão. O esquema gerado difere do usado pela análise, e a geração cíclica repete pares leitor-livro. Sua integração exige revisão, validação e atualização conjunta do notebook e do relatório. Não execute o protótipo sobre a base validada para reproduzir os resultados atuais.
 
-## Privacidade e uso
+## Limitações e uso
 
-Os identificadores utilizados não possuem associação pública com pessoas reais. Não são armazenados nomes, e-mails, telefones ou informações sensíveis. O uso é exclusivamente acadêmico no contexto do Booklog AI.
+A base é pequena, elaborada para fins acadêmicos e não sustenta conclusões sobre o mercado editorial ou leitores reais. A N2 deverá comparar baseline e personalização com separação de treino e teste e métricas compatíveis com a tarefa.

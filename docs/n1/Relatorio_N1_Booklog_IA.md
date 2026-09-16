@@ -16,13 +16,13 @@
 
 ## Resumo
 
-Este trabalho apresenta a proposta de um sistema de recomendação personalizada de livros para o Booklog, plataforma de descoberta e acompanhamento de leituras desenvolvida pelo grupo como Trabalho de Conclusão de Curso. O problema investigado é a dificuldade de localizar obras relevantes em catálogos amplos quando rankings gerais não representam as preferências individuais dos leitores. O objetivo é desenvolver e avaliar uma abordagem capaz de estimar afinidade e ordenar livros para cada leitor. O projeto segue a opção Framework e utiliza Python, Pandas e Matplotlib na análise exploratória e na preparação dos dados. O conjunto elaborado pelo grupo e autorizado para a atividade reúne 30 leitores, 36 livros e 345 avaliações. A análise identificou média de 3,62, mediana de 3,5, ausência de valores faltantes e duplicidades, além de esparsidade de 68,1% na matriz leitor × livro. Esses resultados confirmam a integridade estrutural da base e orientam o protocolo experimental. Na N2, um baseline não personalizado será comparado com uma abordagem personalizada por meio de métricas adequadas à tarefa. O desenvolvimento também considera privacidade, viés de popularidade, diversidade, cold start, transparência e explicabilidade.
+Este trabalho apresenta a proposta de um sistema de recomendação personalizada de livros para o Booklog, plataforma de descoberta e acompanhamento de leituras desenvolvida pelo grupo como Trabalho de Conclusão de Curso. O problema investigado é a dificuldade de localizar obras relevantes em catálogos amplos quando rankings gerais não representam as preferências individuais dos leitores. O objetivo é desenvolver e avaliar uma abordagem capaz de estimar afinidade e ordenar livros para cada leitor. O projeto segue a opção Framework e utiliza Python, Pandas e Matplotlib na análise exploratória e na preparação dos dados. O conjunto elaborado pelo grupo e autorizado para a atividade reúne 30 leitores, 36 livros e 345 avaliações. A análise identificou média de 3,62, mediana de 3,5, ausência de valores faltantes e duplicidades, além de esparsidade de 68,1% na matriz leitor × livro. Esses resultados confirmam a integridade estrutural das tabelas de livros e avaliações analisadas e orientam o protocolo experimental. Na N2, um baseline não personalizado será comparado com uma abordagem personalizada por meio de métricas adequadas à tarefa. O desenvolvimento também considera privacidade, viés de popularidade, diversidade, cold start, transparência e explicabilidade.
 
 **Palavras-chave:** sistemas de recomendação; inteligência artificial; aprendizado de máquina; livros; personalização.
 
 ## Abstract
 
-This paper presents a personalized book recommendation system for Booklog, a reading discovery and tracking platform developed by the group as an undergraduate final project. The investigated problem is the difficulty of finding relevant works in large catalogs when global rankings do not represent readers' individual preferences. The goal is to develop and evaluate an approach capable of estimating affinity and ranking books for each reader. The project follows the Framework option and uses Python, Pandas, and Matplotlib for exploratory analysis and data preparation. The dataset prepared by the group and authorized for the assignment contains 30 readers, 36 books, and 345 ratings. The analysis found a mean rating of 3.62, a median of 3.5, no missing values or duplicates, and 68.1% sparsity in the reader–book matrix. These results confirm the dataset's structural integrity and guide the experimental protocol. In N2, a non-personalized baseline will be compared with a personalized approach using metrics appropriate to the selected task. The development also considers privacy, popularity bias, diversity, cold start, transparency, and explainability.
+This paper presents a personalized book recommendation system for Booklog, a reading discovery and tracking platform developed by the group as an undergraduate final project. The investigated problem is the difficulty of finding relevant works in large catalogs when global rankings do not represent readers' individual preferences. The goal is to develop and evaluate an approach capable of estimating affinity and ranking books for each reader. The project follows the Framework option and uses Python, Pandas, and Matplotlib for exploratory analysis and data preparation. The dataset prepared by the group and authorized for the assignment contains 30 readers, 36 books, and 345 ratings. The analysis found a mean rating of 3.62, a median of 3.5, no missing values or duplicates, and 68.1% sparsity in the reader–book matrix. These results confirm the structural integrity of the analyzed book and rating tables and guide the experimental protocol. In N2, a non-personalized baseline will be compared with a personalized approach using metrics appropriate to the selected task. The development also considers privacy, popularity bias, diversity, cold start, transparency, and explainability.
 
 **Keywords:** recommender systems; artificial intelligence; machine learning; books; personalization.
 
@@ -88,6 +88,8 @@ O conjunto de dados foi elaborado pelo grupo e autorizado para a atividade. O ca
 
 Cada interação possui `user_id`, `book_id`, `rating` e `interaction_date`. O catálogo possui `book_id`, `title`, `author` e `genres`. As notas variam de 1 a 5 em intervalos de 0,5. A unidade de análise é o par leitor–livro avaliado.
 
+O arquivo auxiliar `data/raw/readers.csv` contém apenas cinco perfis e não integra a análise atual. Os 30 leitores correspondem aos identificadores distintos nas avaliações. A expansão sintética mencionada no gerador não está incorporada aos CSVs analisados; seus números não constituem resultados desta N1. A base foi elaborada para a atividade acadêmica e não é uma exportação de comportamento real do Booklog.
+
 ### 5.2 Análise exploratória
 
 A análise exploratória verificou quantidade de registros, leitores e livros, valores ausentes, duplicidades, distribuição das notas, interações por leitor e por livro, avaliações por gênero e esparsidade.
@@ -108,7 +110,7 @@ A matriz possui 1.080 combinações possíveis entre leitores e livros, das quai
 
 ### 5.3 Preparação
 
-A preparação converteu notas e datas para os tipos apropriados, validou a escala de 1 a 5, verificou duplicidades, confirmou a integridade referencial entre avaliações e catálogo, removeu cópias integrais e ordenou os registros. Os arquivos resultantes estão em `data/processed/`.
+A preparação converteu notas e datas para os tipos apropriados, validou a escala de 1 a 5, verificou duplicidades, confirmou a integridade referencial entre avaliações e catálogo, removeu cópias integrais e ordenou os registros. Os arquivos resultantes são `books_clean.csv` e `ratings_clean.csv`, em `data/processed/`. A integridade referencial verificada limita-se à relação entre avaliações e catálogo, sem atestar a cobertura dos perfis auxiliares.
 
 ## 6. Metodologia e Resultados Esperados
 
@@ -126,7 +128,7 @@ Espera-se produzir um ranking personalizado e compará-lo com o baseline sob o m
 
 ## 7. Resultados Parciais e Discussão
 
-A N1 entregou uma base estruturalmente íntegra, um processo reprodutível de preparação e uma análise exploratória executável. A ausência de valores faltantes e de duplicidades reduz a necessidade de correções antes da modelagem. A esparsidade de 68,1% confirma que a maior parte das relações leitor–livro não foi observada, condição relevante para a seleção da técnica.
+A N1 entregou tabelas de livros e avaliações estruturalmente íntegras, um processo reprodutível de preparação e uma análise exploratória executável. A ausência de valores faltantes e de duplicidades reduz a necessidade de correções antes da modelagem. A esparsidade de 68,1% confirma que a maior parte das relações leitor–livro não foi observada, condição relevante para a seleção da técnica.
 
 Os resultados desta etapa descrevem apenas o dataset. Eles não demonstram desempenho preditivo nem superioridade de uma abordagem personalizada. Essas conclusões dependem dos experimentos controlados da N2.
 

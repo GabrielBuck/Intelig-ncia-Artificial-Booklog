@@ -20,30 +20,35 @@ Plataformas de leitura possuem muitos livros disponíveis, porém rankings basea
 
 ## Dataset da N1
 
-O dataset foi estruturado para representar o contexto de uma plataforma de leitura, utilizando identificadores anonimizados.
+A base publicada e analisada na N1 contém **30 leitores distintos nas avaliações, 36 livros e 345 avaliações**. Foi elaborada pelo grupo para a atividade acadêmica; não representa uma exportação de comportamento real do Booklog.
 
-A expansão da N1 contempla:
-
-- leitores com informações de perfil não identificáveis;
-- catálogo de livros com metadados relevantes;
-- histórico de interações leitor-livro;
-- avaliações em escala de 1 a 5.
-
-A estrutura foi criada para permitir análise exploratória, preparação dos dados e evolução posterior para modelos de recomendação na N2.
+O arquivo auxiliar `data/raw/readers.csv` possui cinco perfis, sem cobertura de todos os leitores das avaliações. Esses perfis não são utilizados na análise atual.
 
 ## Estrutura de dados
 
 ```text
-raw/
-├── readers.csv
-├── books.csv
-└── ratings.csv
-
-processed/
-├── readers_clean.csv
-├── books_clean.csv
-└── ratings_clean.csv
+data/
+├── raw/
+│   ├── readers.csv
+│   ├── books.csv
+│   └── ratings.csv
+└── processed/
+    ├── books_clean.csv
+    └── ratings_clean.csv
 ```
+
+## Reprodução
+
+```bash
+python -m pip install -r requirements.txt
+python src/analise_exploratoria.py
+```
+
+O notebook `notebooks/01_analise_exploratoria.ipynb` apresenta a análise exploratória. O relatório está em [docs/n1/Relatorio_N1_Booklog_IA.md](docs/n1/Relatorio_N1_Booklog_IA.md).
+
+### Estado da expansão
+
+`src/expandir_dataset_n1.py` é um protótipo de geração sintética de 150 perfis, 200 livros e 3.000 registros. Essa expansão não integra os CSVs nem os resultados da N1 publicados. O protótipo usa esquema diferente do pipeline atual e pode repetir pares leitor-livro; portanto, não deve substituir a base validada sem revisão e nova execução da análise. Seus títulos e autores são fictícios.
 
 ## Análise exploratória
 
@@ -61,14 +66,9 @@ A análise tem como objetivo avaliar se os dados possuem características adequa
 
 ## Preparação dos dados
 
-O processamento realiza:
+O processamento converte notas e datas, valida a escala de 1 a 5, verifica pares leitor-livro e identificadores de livros duplicados, confere as referências ao catálogo e ordena os registros. Gera `books_clean.csv` e `ratings_clean.csv`.
 
-1. validação de colunas e tipos;
-2. tratamento de valores ausentes;
-3. remoção de duplicidades;
-4. validação das notas;
-5. conferência das relações entre leitores, livros e avaliações;
-6. geração dos arquivos processados.
+A análise da base atual encontrou média de 3,62, mediana de 3,5, nenhum valor ausente nas tabelas analisadas, nenhum par duplicado e esparsidade de 68,1%. A validação referencial não inclui a completude dos perfis auxiliares.
 
 ## Continuidade para N2
 
