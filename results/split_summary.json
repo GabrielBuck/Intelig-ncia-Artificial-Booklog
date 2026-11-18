@@ -1,0 +1,34 @@
+{
+  "cutoff": "2026-09-10",
+  "train": {
+    "ratings": 273,
+    "first_date": "2026-08-20",
+    "last_date": "2026-09-09",
+    "users": 30,
+    "min_ratings_per_user": 4
+  },
+  "test": {
+    "ratings": 72,
+    "first_date": "2026-09-10",
+    "last_date": "2026-09-14",
+    "users_with_test": 27,
+    "relevant_ratings": 29,
+    "users_with_relevant": 20
+  },
+  "users_without_test": [
+    "U002",
+    "U006",
+    "U010"
+  ],
+  "users_without_relevant_test": [
+    "U009",
+    "U011",
+    "U014",
+    "U016",
+    "U021",
+    "U027",
+    "U029"
+  ],
+  "train_share": 0.7913,
+  "tfidf_vocabulary_size": 129
+}

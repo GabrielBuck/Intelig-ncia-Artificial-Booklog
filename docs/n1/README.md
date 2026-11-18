@@ -28,4 +28,4 @@ Esta pasta reúne o relatório textual da N1 e a matriz de aderência aos requis
 
 ## Continuidade para a N2
 
-A N2 acrescentará baseline, modelo personalizado, protocolo de treino e teste, métricas, resultados comparativos, conclusão e roteiro do vídeo de até cinco minutos. A seleção técnica será orientada pelos dados e pelo conteúdo da disciplina, sem incluir métodos que não contribuam diretamente para o problema.
+A N2 foi publicada em [`docs/n2/`](../n2/README.md): relatório completo, roteiro do vídeo, avaliação reproduzível (`src/avaliacao_n2.py`) e notebook `notebooks/02_avaliacao_recomendacoes.ipynb`. Este texto da N1 permanece como registro da primeira entrega.

@@ -1,0 +1,1975 @@
+{
+  "limit": 10,
+  "books": [
+    {
+      "book_id": "B001",
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Distopia",
+      "aggregate_rating": 3.95,
+      "rating_count": 10
+    },
+    {
+      "book_id": "B002",
+      "title": "A Revolução dos Bichos",
+      "author": "George Orwell",
+      "genre": "Distopia",
+      "aggregate_rating": 4.25,
+      "rating_count": 6
+    },
+    {
+      "book_id": "B003",
+      "title": "Admirável Mundo Novo",
+      "author": "Aldous Huxley",
+      "genre": "Distopia",
+      "aggregate_rating": 4.0,
+      "rating_count": 5
+    },
+    {
+      "book_id": "B004",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "genre": "Distopia",
+      "aggregate_rating": 3.1667,
+      "rating_count": 6
+    },
+    {
+      "book_id": "B005",
+      "title": "O Conto da Aia",
+      "author": "Margaret Atwood",
+      "genre": "Distopia",
+      "aggregate_rating": 3.375,
+      "rating_count": 4
+    },
+    {
+      "book_id": "B006",
+      "title": "Jogos Vorazes",
+      "author": "Suzanne Collins",
+      "genre": "Distopia",
+      "aggregate_rating": 3.8125,
+      "rating_count": 8
+    },
+    {
+      "book_id": "B007",
+      "title": "O Hobbit",
+      "author": "J. R. R. Tolkien",
+      "genre": "Fantasia",
+      "aggregate_rating": 3.1667,
+      "rating_count": 6
+    },
+    {
+      "book_id": "B008",
+      "title": "A Sociedade do Anel",
+      "author": "J. R. R. Tolkien",
+      "genre": "Fantasia",
+      "aggregate_rating": 4.0833,
+      "rating_count": 6
+    },
+    {
+      "book_id": "B009",
+      "title": "Harry Potter e a Pedra Filosofal",
+      "author": "J. K. Rowling",
+      "genre": "Fantasia",
+      "aggregate_rating": 3.8667,
+      "rating_count": 15
+    },
+    {
+      "book_id": "B010",
+      "title": "O Nome do Vento",
+      "author": "Patrick Rothfuss",
+      "genre": "Fantasia",
+      "aggregate_rating": 3.8636,
+      "rating_count": 11
+    },
+    {
+      "book_id": "B011",
+      "title": "As Crônicas de Nárnia",
+      "author": "C. S. Lewis",
+      "genre": "Fantasia",
+      "aggregate_rating": 3.9545,
+      "rating_count": 11
+    },
+    {
+      "book_id": "B012",
+      "title": "O Feiticeiro de Terramar",
+      "author": "Ursula K. Le Guin",
+      "genre": "Fantasia",
+      "aggregate_rating": 3.5,
+      "rating_count": 5
+    },
+    {
+      "book_id": "B013",
+      "title": "Fundação",
+      "author": "Isaac Asimov",
+      "genre": "Ficção Científica",
+      "aggregate_rating": 4.125,
+      "rating_count": 8
+    },
+    {
+      "book_id": "B014",
+      "title": "Duna",
+      "author": "Frank Herbert",
+      "genre": "Ficção Científica",
+      "aggregate_rating": 3.3438,
+      "rating_count": 16
+    },
+    {
+      "book_id": "B015",
+      "title": "Eu, Robô",
+      "author": "Isaac Asimov",
+      "genre": "Ficção Científica",
+      "aggregate_rating": 3.5,
+      "rating_count": 7
+    },
+    {
+      "book_id": "B016",
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "genre": "Ficção Científica",
+      "aggregate_rating": 4.0417,
+      "rating_count": 12
+    },
+    {
+      "book_id": "B017",
+      "title": "O Guia do Mochileiro das Galáxias",
+      "author": "Douglas Adams",
+      "genre": "Ficção Científica",
+      "aggregate_rating": 3.6667,
+      "rating_count": 9
+    },
+    {
+      "book_id": "B018",
+      "title": "A Mão Esquerda da Escuridão",
+      "author": "Ursula K. Le Guin",
+      "genre": "Ficção Científica",
+      "aggregate_rating": 3.3125,
+      "rating_count": 8
+    },
+    {
+      "book_id": "B019",
+      "title": "Orgulho e Preconceito",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "aggregate_rating": 3.5417,
+      "rating_count": 12
+    },
+    {
+      "book_id": "B020",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "genre": "Romance",
+      "aggregate_rating": 3.6429,
+      "rating_count": 7
+    },
+    {
+      "book_id": "B021",
+      "title": "Persuasão",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "aggregate_rating": 2.0833,
+      "rating_count": 6
+    },
+    {
+      "book_id": "B022",
+      "title": "Como Eu Era Antes de Você",
+      "author": "Jojo Moyes",
+      "genre": "Romance",
+      "aggregate_rating": 3.0556,
+      "rating_count": 9
+    },
+    {
+      "book_id": "B023",
+      "title": "Teto para Dois",
+      "author": "Beth O'Leary",
+      "genre": "Romance",
+      "aggregate_rating": 3.125,
+      "rating_count": 4
+    },
+    {
+      "book_id": "B024",
+      "title": "Um Dia",
+      "author": "David Nicholls",
+      "genre": "Romance",
+      "aggregate_rating": 4.1667,
+      "rating_count": 6
+    },
+    {
+      "book_id": "B025",
+      "title": "Assassinato no Expresso do Oriente",
+      "author": "Agatha Christie",
+      "genre": "Mistério",
+      "aggregate_rating": 3.2,
+      "rating_count": 5
+    },
+    {
+      "book_id": "B026",
+      "title": "E Não Sobrou Nenhum",
+      "author": "Agatha Christie",
+      "genre": "Mistério",
+      "aggregate_rating": 4.125,
+      "rating_count": 4
+    },
+    {
+      "book_id": "B027",
+      "title": "O Silêncio dos Inocentes",
+      "author": "Thomas Harris",
+      "genre": "Mistério",
+      "aggregate_rating": 3.75,
+      "rating_count": 6
+    },
+    {
+      "book_id": "B028",
+      "title": "Garota Exemplar",
+      "author": "Gillian Flynn",
+      "genre": "Mistério",
+      "aggregate_rating": 3.0,
+      "rating_count": 1
+    },
+    {
+      "book_id": "B029",
+      "title": "O Código Da Vinci",
+      "author": "Dan Brown",
+      "genre": "Mistério",
+      "aggregate_rating": 3.6,
+      "rating_count": 10
+    },
+    {
+      "book_id": "B030",
+      "title": "A Paciente Silenciosa",
+      "author": "Alex Michaelides",
+      "genre": "Mistério",
+      "aggregate_rating": 3.75,
+      "rating_count": 4
+    },
+    {
+      "book_id": "B031",
+      "title": "Dom Casmurro",
+      "author": "Machado de Assis",
+      "genre": "Clássico",
+      "aggregate_rating": 3.3333,
+      "rating_count": 12
+    },
+    {
+      "book_id": "B032",
+      "title": "Memórias Póstumas de Brás Cubas",
+      "author": "Machado de Assis",
+      "genre": "Clássico",
+      "aggregate_rating": 3.375,
+      "rating_count": 4
+    },
+    {
+      "book_id": "B033",
+      "title": "O Cortiço",
+      "author": "Aluísio Azevedo",
+      "genre": "Clássico",
+      "aggregate_rating": 3.375,
+      "rating_count": 8
+    },
+    {
+      "book_id": "B034",
+      "title": "A Hora da Estrela",
+      "author": "Clarice Lispector",
+      "genre": "Clássico",
+      "aggregate_rating": 4.0,
+      "rating_count": 7
+    },
+    {
+      "book_id": "B035",
+      "title": "O Retrato de Dorian Gray",
+      "author": "Oscar Wilde",
+      "genre": "Clássico",
+      "aggregate_rating": 3.5455,
+      "rating_count": 11
+    },
+    {
+      "book_id": "B036",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "genre": "Clássico",
+      "aggregate_rating": 3.875,
+      "rating_count": 4
+    }
+  ],
+  "train": [
+    {
+      "user_id": "U003",
+      "book_id": "B010",
+      "rating": 4.5,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U003",
+      "book_id": "B029",
+      "rating": 4.0,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U004",
+      "book_id": "B011",
+      "rating": 5.0,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U004",
+      "book_id": "B034",
+      "rating": 3.0,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U005",
+      "book_id": "B027",
+      "rating": 4.0,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U008",
+      "book_id": "B006",
+      "rating": 4.0,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U009",
+      "book_id": "B016",
+      "rating": 4.5,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U010",
+      "book_id": "B015",
+      "rating": 4.0,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B008",
+      "rating": 3.0,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B022",
+      "rating": 2.0,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U024",
+      "book_id": "B011",
+      "rating": 3.0,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U024",
+      "book_id": "B018",
+      "rating": 3.0,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U027",
+      "book_id": "B017",
+      "rating": 3.0,
+      "interaction_date": "2026-08-20"
+    },
+    {
+      "user_id": "U004",
+      "book_id": "B014",
+      "rating": 3.5,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U005",
+      "book_id": "B004",
+      "rating": 4.0,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U005",
+      "book_id": "B016",
+      "rating": 4.0,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U005",
+      "book_id": "B019",
+      "rating": 2.5,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U006",
+      "book_id": "B015",
+      "rating": 3.0,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U008",
+      "book_id": "B014",
+      "rating": 3.5,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U008",
+      "book_id": "B025",
+      "rating": 2.5,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U009",
+      "book_id": "B009",
+      "rating": 4.0,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U012",
+      "book_id": "B035",
+      "rating": 3.0,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U013",
+      "book_id": "B035",
+      "rating": 3.0,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B016",
+      "rating": 4.5,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B021",
+      "rating": 1.5,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U015",
+      "book_id": "B023",
+      "rating": 2.5,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U019",
+      "book_id": "B011",
+      "rating": 2.5,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U020",
+      "book_id": "B031",
+      "rating": 5.0,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U021",
+      "book_id": "B031",
+      "rating": 2.0,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B009",
+      "rating": 3.5,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U024",
+      "book_id": "B031",
+      "rating": 4.0,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U026",
+      "book_id": "B009",
+      "rating": 3.5,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U027",
+      "book_id": "B029",
+      "rating": 4.0,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U028",
+      "book_id": "B023",
+      "rating": 5.0,
+      "interaction_date": "2026-08-21"
+    },
+    {
+      "user_id": "U001",
+      "book_id": "B023",
+      "rating": 3.0,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U006",
+      "book_id": "B019",
+      "rating": 2.5,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U007",
+      "book_id": "B007",
+      "rating": 4.0,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U009",
+      "book_id": "B013",
+      "rating": 5.0,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U010",
+      "book_id": "B031",
+      "rating": 4.0,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B014",
+      "rating": 4.0,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U016",
+      "book_id": "B006",
+      "rating": 3.0,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U016",
+      "book_id": "B016",
+      "rating": 4.5,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U016",
+      "book_id": "B031",
+      "rating": 2.5,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U018",
+      "book_id": "B017",
+      "rating": 3.5,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U018",
+      "book_id": "B019",
+      "rating": 4.0,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U018",
+      "book_id": "B022",
+      "rating": 3.5,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U019",
+      "book_id": "B025",
+      "rating": 4.0,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U020",
+      "book_id": "B007",
+      "rating": 4.5,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U021",
+      "book_id": "B035",
+      "rating": 3.0,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B017",
+      "rating": 5.0,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B036",
+      "rating": 3.5,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U024",
+      "book_id": "B016",
+      "rating": 3.5,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U027",
+      "book_id": "B014",
+      "rating": 1.5,
+      "interaction_date": "2026-08-22"
+    },
+    {
+      "user_id": "U002",
+      "book_id": "B034",
+      "rating": 4.5,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U003",
+      "book_id": "B009",
+      "rating": 5.0,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U006",
+      "book_id": "B014",
+      "rating": 2.5,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U008",
+      "book_id": "B018",
+      "rating": 2.0,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U008",
+      "book_id": "B021",
+      "rating": 3.5,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U010",
+      "book_id": "B006",
+      "rating": 4.5,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U010",
+      "book_id": "B024",
+      "rating": 3.5,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U015",
+      "book_id": "B010",
+      "rating": 3.5,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U018",
+      "book_id": "B009",
+      "rating": 4.5,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U019",
+      "book_id": "B014",
+      "rating": 3.0,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U021",
+      "book_id": "B033",
+      "rating": 2.5,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U023",
+      "book_id": "B014",
+      "rating": 2.5,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U026",
+      "book_id": "B005",
+      "rating": 3.5,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U026",
+      "book_id": "B022",
+      "rating": 4.5,
+      "interaction_date": "2026-08-23"
+    },
+    {
+      "user_id": "U003",
+      "book_id": "B027",
+      "rating": 3.5,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U004",
+      "book_id": "B019",
+      "rating": 3.0,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U006",
+      "book_id": "B029",
+      "rating": 3.0,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U009",
+      "book_id": "B002",
+      "rating": 4.0,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U009",
+      "book_id": "B006",
+      "rating": 4.5,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U009",
+      "book_id": "B011",
+      "rating": 3.5,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U011",
+      "book_id": "B011",
+      "rating": 3.5,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B020",
+      "rating": 2.0,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B034",
+      "rating": 4.5,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U015",
+      "book_id": "B029",
+      "rating": 3.5,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U017",
+      "book_id": "B016",
+      "rating": 4.0,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U018",
+      "book_id": "B012",
+      "rating": 5.0,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B004",
+      "rating": 3.0,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U026",
+      "book_id": "B001",
+      "rating": 3.5,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U027",
+      "book_id": "B011",
+      "rating": 3.5,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U028",
+      "book_id": "B029",
+      "rating": 3.0,
+      "interaction_date": "2026-08-24"
+    },
+    {
+      "user_id": "U002",
+      "book_id": "B023",
+      "rating": 2.0,
+      "interaction_date": "2026-08-25"
+    },
+    {
+      "user_id": "U004",
+      "book_id": "B033",
+      "rating": 3.5,
+      "interaction_date": "2026-08-25"
+    },
+    {
+      "user_id": "U005",
+      "book_id": "B015",
+      "rating": 3.5,
+      "interaction_date": "2026-08-25"
+    },
+    {
+      "user_id": "U010",
+      "book_id": "B009",
+      "rating": 3.5,
+      "interaction_date": "2026-08-25"
+    },
+    {
+      "user_id": "U012",
+      "book_id": "B031",
+      "rating": 2.5,
+      "interaction_date": "2026-08-25"
+    },
+    {
+      "user_id": "U013",
+      "book_id": "B003",
+      "rating": 4.5,
+      "interaction_date": "2026-08-25"
+    },
+    {
+      "user_id": "U020",
+      "book_id": "B020",
+      "rating": 3.5,
+      "interaction_date": "2026-08-25"
+    },
+    {
+      "user_id": "U028",
+      "book_id": "B016",
+      "rating": 2.0,
+      "interaction_date": "2026-08-25"
+    },
+    {
+      "user_id": "U029",
+      "book_id": "B013",
+      "rating": 4.5,
+      "interaction_date": "2026-08-25"
+    },
+    {
+      "user_id": "U002",
+      "book_id": "B018",
+      "rating": 4.5,
+      "interaction_date": "2026-08-26"
+    },
+    {
+      "user_id": "U010",
+      "book_id": "B012",
+      "rating": 4.0,
+      "interaction_date": "2026-08-26"
+    },
+    {
+      "user_id": "U013",
+      "book_id": "B018",
+      "rating": 2.5,
+      "interaction_date": "2026-08-26"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B015",
+      "rating": 3.0,
+      "interaction_date": "2026-08-26"
+    },
+    {
+      "user_id": "U018",
+      "book_id": "B026",
+      "rating": 5.0,
+      "interaction_date": "2026-08-26"
+    },
+    {
+      "user_id": "U019",
+      "book_id": "B026",
+      "rating": 4.0,
+      "interaction_date": "2026-08-26"
+    },
+    {
+      "user_id": "U021",
+      "book_id": "B025",
+      "rating": 3.5,
+      "interaction_date": "2026-08-26"
+    },
+    {
+      "user_id": "U023",
+      "book_id": "B033",
+      "rating": 4.0,
+      "interaction_date": "2026-08-26"
+    },
+    {
+      "user_id": "U024",
+      "book_id": "B022",
+      "rating": 2.5,
+      "interaction_date": "2026-08-26"
+    },
+    {
+      "user_id": "U030",
+      "book_id": "B017",
+      "rating": 3.5,
+      "interaction_date": "2026-08-26"
+    },
+    {
+      "user_id": "U002",
+      "book_id": "B031",
+      "rating": 3.5,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U003",
+      "book_id": "B006",
+      "rating": 2.0,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U006",
+      "book_id": "B006",
+      "rating": 5.0,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U009",
+      "book_id": "B007",
+      "rating": 2.5,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U009",
+      "book_id": "B015",
+      "rating": 3.5,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U010",
+      "book_id": "B014",
+      "rating": 2.0,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U010",
+      "book_id": "B018",
+      "rating": 4.0,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U012",
+      "book_id": "B022",
+      "rating": 4.5,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B018",
+      "rating": 4.0,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U020",
+      "book_id": "B035",
+      "rating": 5.0,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U021",
+      "book_id": "B007",
+      "rating": 2.5,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U025",
+      "book_id": "B004",
+      "rating": 2.0,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U029",
+      "book_id": "B009",
+      "rating": 3.5,
+      "interaction_date": "2026-08-27"
+    },
+    {
+      "user_id": "U001",
+      "book_id": "B024",
+      "rating": 4.0,
+      "interaction_date": "2026-08-28"
+    },
+    {
+      "user_id": "U002",
+      "book_id": "B011",
+      "rating": 2.5,
+      "interaction_date": "2026-08-28"
+    },
+    {
+      "user_id": "U008",
+      "book_id": "B026",
+      "rating": 3.5,
+      "interaction_date": "2026-08-28"
+    },
+    {
+      "user_id": "U012",
+      "book_id": "B034",
+      "rating": 3.0,
+      "interaction_date": "2026-08-28"
+    },
+    {
+      "user_id": "U016",
+      "book_id": "B020",
+      "rating": 3.5,
+      "interaction_date": "2026-08-28"
+    },
+    {
+      "user_id": "U017",
+      "book_id": "B003",
+      "rating": 4.5,
+      "interaction_date": "2026-08-28"
+    },
+    {
+      "user_id": "U023",
+      "book_id": "B035",
+      "rating": 4.0,
+      "interaction_date": "2026-08-28"
+    },
+    {
+      "user_id": "U025",
+      "book_id": "B035",
+      "rating": 4.5,
+      "interaction_date": "2026-08-28"
+    },
+    {
+      "user_id": "U029",
+      "book_id": "B014",
+      "rating": 4.5,
+      "interaction_date": "2026-08-28"
+    },
+    {
+      "user_id": "U029",
+      "book_id": "B031",
+      "rating": 3.5,
+      "interaction_date": "2026-08-28"
+    },
+    {
+      "user_id": "U008",
+      "book_id": "B001",
+      "rating": 4.5,
+      "interaction_date": "2026-08-29"
+    },
+    {
+      "user_id": "U010",
+      "book_id": "B034",
+      "rating": 4.5,
+      "interaction_date": "2026-08-29"
+    },
+    {
+      "user_id": "U012",
+      "book_id": "B010",
+      "rating": 2.5,
+      "interaction_date": "2026-08-29"
+    },
+    {
+      "user_id": "U024",
+      "book_id": "B027",
+      "rating": 4.0,
+      "interaction_date": "2026-08-29"
+    },
+    {
+      "user_id": "U025",
+      "book_id": "B002",
+      "rating": 4.0,
+      "interaction_date": "2026-08-29"
+    },
+    {
+      "user_id": "U026",
+      "book_id": "B010",
+      "rating": 3.5,
+      "interaction_date": "2026-08-29"
+    },
+    {
+      "user_id": "U002",
+      "book_id": "B016",
+      "rating": 5.0,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U005",
+      "book_id": "B033",
+      "rating": 3.0,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U006",
+      "book_id": "B032",
+      "rating": 1.5,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U007",
+      "book_id": "B024",
+      "rating": 5.0,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U008",
+      "book_id": "B016",
+      "rating": 3.5,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U008",
+      "book_id": "B019",
+      "rating": 4.0,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U011",
+      "book_id": "B012",
+      "rating": 3.0,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U011",
+      "book_id": "B019",
+      "rating": 3.0,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U015",
+      "book_id": "B009",
+      "rating": 2.0,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U016",
+      "book_id": "B014",
+      "rating": 3.0,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U016",
+      "book_id": "B034",
+      "rating": 3.5,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B033",
+      "rating": 3.5,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B035",
+      "rating": 4.0,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U030",
+      "book_id": "B029",
+      "rating": 3.5,
+      "interaction_date": "2026-08-30"
+    },
+    {
+      "user_id": "U001",
+      "book_id": "B021",
+      "rating": 2.5,
+      "interaction_date": "2026-08-31"
+    },
+    {
+      "user_id": "U005",
+      "book_id": "B031",
+      "rating": 2.5,
+      "interaction_date": "2026-08-31"
+    },
+    {
+      "user_id": "U011",
+      "book_id": "B029",
+      "rating": 3.0,
+      "interaction_date": "2026-08-31"
+    },
+    {
+      "user_id": "U012",
+      "book_id": "B020",
+      "rating": 4.5,
+      "interaction_date": "2026-08-31"
+    },
+    {
+      "user_id": "U018",
+      "book_id": "B014",
+      "rating": 5.0,
+      "interaction_date": "2026-08-31"
+    },
+    {
+      "user_id": "U018",
+      "book_id": "B027",
+      "rating": 5.0,
+      "interaction_date": "2026-08-31"
+    },
+    {
+      "user_id": "U021",
+      "book_id": "B003",
+      "rating": 4.5,
+      "interaction_date": "2026-08-31"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B001",
+      "rating": 2.5,
+      "interaction_date": "2026-08-31"
+    },
+    {
+      "user_id": "U023",
+      "book_id": "B001",
+      "rating": 3.5,
+      "interaction_date": "2026-08-31"
+    },
+    {
+      "user_id": "U025",
+      "book_id": "B016",
+      "rating": 4.5,
+      "interaction_date": "2026-08-31"
+    },
+    {
+      "user_id": "U025",
+      "book_id": "B019",
+      "rating": 3.5,
+      "interaction_date": "2026-08-31"
+    },
+    {
+      "user_id": "U001",
+      "book_id": "B008",
+      "rating": 5.0,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U002",
+      "book_id": "B036",
+      "rating": 4.5,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U011",
+      "book_id": "B017",
+      "rating": 1.5,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U013",
+      "book_id": "B022",
+      "rating": 2.0,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U015",
+      "book_id": "B033",
+      "rating": 2.0,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U016",
+      "book_id": "B015",
+      "rating": 3.5,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U018",
+      "book_id": "B003",
+      "rating": 2.5,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U020",
+      "book_id": "B008",
+      "rating": 5.0,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U020",
+      "book_id": "B010",
+      "rating": 5.0,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U024",
+      "book_id": "B014",
+      "rating": 2.5,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U025",
+      "book_id": "B013",
+      "rating": 4.0,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U027",
+      "book_id": "B018",
+      "rating": 2.5,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U030",
+      "book_id": "B030",
+      "rating": 4.5,
+      "interaction_date": "2026-09-01"
+    },
+    {
+      "user_id": "U001",
+      "book_id": "B035",
+      "rating": 2.0,
+      "interaction_date": "2026-09-02"
+    },
+    {
+      "user_id": "U007",
+      "book_id": "B011",
+      "rating": 5.0,
+      "interaction_date": "2026-09-02"
+    },
+    {
+      "user_id": "U007",
+      "book_id": "B029",
+      "rating": 3.5,
+      "interaction_date": "2026-09-02"
+    },
+    {
+      "user_id": "U009",
+      "book_id": "B001",
+      "rating": 4.0,
+      "interaction_date": "2026-09-02"
+    },
+    {
+      "user_id": "U009",
+      "book_id": "B004",
+      "rating": 4.0,
+      "interaction_date": "2026-09-02"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B031",
+      "rating": 4.0,
+      "interaction_date": "2026-09-02"
+    },
+    {
+      "user_id": "U015",
+      "book_id": "B017",
+      "rating": 4.5,
+      "interaction_date": "2026-09-02"
+    },
+    {
+      "user_id": "U019",
+      "book_id": "B004",
+      "rating": 4.0,
+      "interaction_date": "2026-09-02"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B015",
+      "rating": 4.0,
+      "interaction_date": "2026-09-02"
+    },
+    {
+      "user_id": "U023",
+      "book_id": "B010",
+      "rating": 5.0,
+      "interaction_date": "2026-09-02"
+    },
+    {
+      "user_id": "U023",
+      "book_id": "B034",
+      "rating": 5.0,
+      "interaction_date": "2026-09-02"
+    },
+    {
+      "user_id": "U024",
+      "book_id": "B028",
+      "rating": 3.0,
+      "interaction_date": "2026-09-02"
+    },
+    {
+      "user_id": "U003",
+      "book_id": "B017",
+      "rating": 2.5,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U004",
+      "book_id": "B005",
+      "rating": 2.0,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U005",
+      "book_id": "B009",
+      "rating": 4.0,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U010",
+      "book_id": "B029",
+      "rating": 3.5,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U011",
+      "book_id": "B022",
+      "rating": 2.5,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U012",
+      "book_id": "B026",
+      "rating": 4.0,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B017",
+      "rating": 4.5,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U019",
+      "book_id": "B010",
+      "rating": 3.5,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U026",
+      "book_id": "B030",
+      "rating": 5.0,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U027",
+      "book_id": "B010",
+      "rating": 3.0,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U028",
+      "book_id": "B008",
+      "rating": 4.0,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U028",
+      "book_id": "B022",
+      "rating": 4.0,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U029",
+      "book_id": "B024",
+      "rating": 4.0,
+      "interaction_date": "2026-09-03"
+    },
+    {
+      "user_id": "U002",
+      "book_id": "B009",
+      "rating": 3.5,
+      "interaction_date": "2026-09-04"
+    },
+    {
+      "user_id": "U006",
+      "book_id": "B013",
+      "rating": 4.0,
+      "interaction_date": "2026-09-04"
+    },
+    {
+      "user_id": "U018",
+      "book_id": "B029",
+      "rating": 5.0,
+      "interaction_date": "2026-09-04"
+    },
+    {
+      "user_id": "U020",
+      "book_id": "B033",
+      "rating": 4.0,
+      "interaction_date": "2026-09-04"
+    },
+    {
+      "user_id": "U020",
+      "book_id": "B036",
+      "rating": 4.5,
+      "interaction_date": "2026-09-04"
+    },
+    {
+      "user_id": "U021",
+      "book_id": "B019",
+      "rating": 4.5,
+      "interaction_date": "2026-09-04"
+    },
+    {
+      "user_id": "U029",
+      "book_id": "B020",
+      "rating": 4.0,
+      "interaction_date": "2026-09-04"
+    },
+    {
+      "user_id": "U004",
+      "book_id": "B010",
+      "rating": 5.0,
+      "interaction_date": "2026-09-05"
+    },
+    {
+      "user_id": "U005",
+      "book_id": "B013",
+      "rating": 5.0,
+      "interaction_date": "2026-09-05"
+    },
+    {
+      "user_id": "U007",
+      "book_id": "B009",
+      "rating": 5.0,
+      "interaction_date": "2026-09-05"
+    },
+    {
+      "user_id": "U009",
+      "book_id": "B014",
+      "rating": 4.0,
+      "interaction_date": "2026-09-05"
+    },
+    {
+      "user_id": "U013",
+      "book_id": "B020",
+      "rating": 3.0,
+      "interaction_date": "2026-09-05"
+    },
+    {
+      "user_id": "U015",
+      "book_id": "B006",
+      "rating": 3.0,
+      "interaction_date": "2026-09-05"
+    },
+    {
+      "user_id": "U019",
+      "book_id": "B006",
+      "rating": 4.5,
+      "interaction_date": "2026-09-05"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B003",
+      "rating": 4.0,
+      "interaction_date": "2026-09-05"
+    },
+    {
+      "user_id": "U030",
+      "book_id": "B010",
+      "rating": 3.5,
+      "interaction_date": "2026-09-05"
+    },
+    {
+      "user_id": "U030",
+      "book_id": "B021",
+      "rating": 1.5,
+      "interaction_date": "2026-09-05"
+    },
+    {
+      "user_id": "U002",
+      "book_id": "B008",
+      "rating": 4.0,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U002",
+      "book_id": "B035",
+      "rating": 3.5,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U003",
+      "book_id": "B011",
+      "rating": 5.0,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U006",
+      "book_id": "B027",
+      "rating": 2.5,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U009",
+      "book_id": "B008",
+      "rating": 3.5,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U012",
+      "book_id": "B027",
+      "rating": 3.5,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U013",
+      "book_id": "B005",
+      "rating": 5.0,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U013",
+      "book_id": "B025",
+      "rating": 3.0,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B032",
+      "rating": 3.0,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U017",
+      "book_id": "B002",
+      "rating": 4.5,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U020",
+      "book_id": "B019",
+      "rating": 3.0,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U021",
+      "book_id": "B009",
+      "rating": 3.0,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U023",
+      "book_id": "B009",
+      "rating": 5.0,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U024",
+      "book_id": "B002",
+      "rating": 5.0,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U026",
+      "book_id": "B019",
+      "rating": 5.0,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U028",
+      "book_id": "B011",
+      "rating": 5.0,
+      "interaction_date": "2026-09-06"
+    },
+    {
+      "user_id": "U002",
+      "book_id": "B005",
+      "rating": 3.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U007",
+      "book_id": "B004",
+      "rating": 2.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U008",
+      "book_id": "B017",
+      "rating": 5.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U011",
+      "book_id": "B002",
+      "rating": 4.5,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U012",
+      "book_id": "B007",
+      "rating": 2.5,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U013",
+      "book_id": "B001",
+      "rating": 5.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U013",
+      "book_id": "B012",
+      "rating": 2.5,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U013",
+      "book_id": "B014",
+      "rating": 4.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U013",
+      "book_id": "B021",
+      "rating": 2.5,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B009",
+      "rating": 3.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U015",
+      "book_id": "B007",
+      "rating": 3.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U016",
+      "book_id": "B002",
+      "rating": 3.5,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U017",
+      "book_id": "B021",
+      "rating": 1.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U019",
+      "book_id": "B016",
+      "rating": 4.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B016",
+      "rating": 4.5,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U025",
+      "book_id": "B032",
+      "rating": 4.5,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U025",
+      "book_id": "B033",
+      "rating": 4.5,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U026",
+      "book_id": "B035",
+      "rating": 3.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U029",
+      "book_id": "B035",
+      "rating": 4.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U030",
+      "book_id": "B012",
+      "rating": 3.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U030",
+      "book_id": "B013",
+      "rating": 4.0,
+      "interaction_date": "2026-09-07"
+    },
+    {
+      "user_id": "U001",
+      "book_id": "B011",
+      "rating": 5.0,
+      "interaction_date": "2026-09-08"
+    },
+    {
+      "user_id": "U006",
+      "book_id": "B001",
+      "rating": 5.0,
+      "interaction_date": "2026-09-08"
+    },
+    {
+      "user_id": "U010",
+      "book_id": "B010",
+      "rating": 3.5,
+      "interaction_date": "2026-09-08"
+    },
+    {
+      "user_id": "U012",
+      "book_id": "B036",
+      "rating": 3.0,
+      "interaction_date": "2026-09-08"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B014",
+      "rating": 5.0,
+      "interaction_date": "2026-09-08"
+    },
+    {
+      "user_id": "U022",
+      "book_id": "B032",
+      "rating": 4.5,
+      "interaction_date": "2026-09-08"
+    },
+    {
+      "user_id": "U024",
+      "book_id": "B001",
+      "rating": 3.5,
+      "interaction_date": "2026-09-08"
+    },
+    {
+      "user_id": "U027",
+      "book_id": "B013",
+      "rating": 4.0,
+      "interaction_date": "2026-09-08"
+    },
+    {
+      "user_id": "U028",
+      "book_id": "B009",
+      "rating": 5.0,
+      "interaction_date": "2026-09-08"
+    },
+    {
+      "user_id": "U028",
+      "book_id": "B018",
+      "rating": 4.0,
+      "interaction_date": "2026-09-08"
+    },
+    {
+      "user_id": "U028",
+      "book_id": "B031",
+      "rating": 3.5,
+      "interaction_date": "2026-09-08"
+    },
+    {
+      "user_id": "U003",
+      "book_id": "B013",
+      "rating": 2.5,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U003",
+      "book_id": "B030",
+      "rating": 3.5,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U006",
+      "book_id": "B022",
+      "rating": 2.0,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U006",
+      "book_id": "B030",
+      "rating": 2.0,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U014",
+      "book_id": "B019",
+      "rating": 3.5,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U015",
+      "book_id": "B001",
+      "rating": 4.5,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U015",
+      "book_id": "B031",
+      "rating": 3.0,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U016",
+      "book_id": "B024",
+      "rating": 4.5,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U019",
+      "book_id": "B001",
+      "rating": 3.5,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U023",
+      "book_id": "B024",
+      "rating": 4.0,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U028",
+      "book_id": "B014",
+      "rating": 3.0,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U028",
+      "book_id": "B019",
+      "rating": 4.0,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U028",
+      "book_id": "B020",
+      "rating": 5.0,
+      "interaction_date": "2026-09-09"
+    },
+    {
+      "user_id": "U030",
+      "book_id": "B025",
+      "rating": 3.0,
+      "interaction_date": "2026-09-09"
+    }
+  ],
+  "users": [
+    "U001",
+    "U002",
+    "U003",
+    "U004",
+    "U005",
+    "U006",
+    "U007",
+    "U008",
+    "U009",
+    "U010",
+    "U011",
+    "U012",
+    "U013",
+    "U014",
+    "U015",
+    "U016",
+    "U017",
+    "U018",
+    "U019",
+    "U020",
+    "U021",
+    "U022",
+    "U023",
+    "U024",
+    "U025",
+    "U026",
+    "U027",
+    "U028",
+    "U029",
+    "U030"
+  ],
+  "strategies": [
+    "contentBased",
+    "hybrid",
+    "graph"
+  ],
+  "collaborative_limits": {
+    "seed_books": 20,
+    "readers": 25,
+    "items": 150
+  }
+}

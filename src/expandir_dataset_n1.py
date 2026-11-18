@@ -1,21 +1,25 @@
 """
-Expansao do dataset da N1 - Booklog IA
+Expansao do dataset da N1 - Booklog IA (prototipo NAO utilizado nos resultados)
+Universidade Presbiteriana Mackenzie - FCI - Inteligencia Artificial 7oK - 2026/2
+Prof. Dr. Leandro Zerbinatti
 
 Integrantes:
-- Gabriel Nottoli Buck - RA 10425384
-- Julia Andrade - RA 10427828
-- Joao Vitor Rocha Miranda - RA 10427273
-- Juan Nacif - RA 10428509
+- Gabriel Nottoli Buck - RA 10425384 - 10425384@mackenzista.com.br
+- Julia Andrade - RA 10427828 - 10427828@mackenzista.com.br
+- Joao Vitor Rocha Miranda - RA 10427273 - 10427273@mackenzista.com.br
+- Juan Nacif - RA 10428509 - 10428509@mackenzista.com.br
 
 Descricao:
-Script reprodutivel para gerar a estrutura de dados utilizada na analise
-exploratoria da N1. A estrutura representa leitores, livros e interacoes
-necessarias para investigar recomendacao personalizada.
+Prototipo de geracao sintetica (150 perfis, 200 livros ficticios, 3.000
+registros). Nao integra os CSVs publicados nem os resultados da N1 e da N2,
+que usam a base validada de 30 leitores, 36 livros e 345 avaliacoes. Nao
+execute este script sobre data/ para reproduzir os resultados.
 
 Historico:
 | Data | Autor | Alteracao |
 | 15/09/2026 | Grupo | Estrutura inicial de expansao |
 | 15/09/2026 | Grupo | Inclusao de leitores, livros e interacoes |
+| 18/11/2026 | Grupo | Cabecalho atualizado: e-mails e aviso de prototipo nao utilizado (logica inalterada) |
 """
 
 import csv

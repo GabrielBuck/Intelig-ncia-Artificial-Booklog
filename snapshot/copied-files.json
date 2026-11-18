@@ -1,0 +1,134 @@
+{
+  "source_repository": "Bin4ryLibr4ry/booklog-backend (privado; somente leitura)",
+  "source_commit": "063583bbcf1d7a9718bd53867c714757e1950283",
+  "header_end_marker": "/* [fim do cabecalho academico] */",
+  "rule": "sha256(conteúdo após o marcador, com LF) == original_sha256",
+  "files": [
+    {
+      "path": "snapshot/src/modules/recommendations/providers/recommendation-ranking.util.ts",
+      "original_path": "src/modules/recommendations/providers/recommendation-ranking.util.ts",
+      "original_sha256": "a165c5d159d632ad44cde1d561e40ac6503f6874f308161e52be8dd97b902f95",
+      "purpose": "Funções de ranking híbrido/conteúdo/colaborativo (pesos fixos em código)."
+    },
+    {
+      "path": "snapshot/src/modules/recommendations/providers/poc-recommendation.provider.ts",
+      "original_path": "src/modules/recommendations/providers/poc-recommendation.provider.ts",
+      "original_sha256": "b76f2d60c340d2087f85881a4ccf3bc0cb873a6ed4f1b18266c07caced280afd",
+      "purpose": "Provedor por grafo de livros com percurso guloso e fallback híbrido."
+    },
+    {
+      "path": "snapshot/src/modules/recommendations/providers/in-memory-recommendation.provider.ts",
+      "original_path": "src/modules/recommendations/providers/in-memory-recommendation.provider.ts",
+      "original_sha256": "b557ab208af4146203cf0e8b515d00926e48bcef9e135f6fb5e4a0029dc06282",
+      "purpose": "Provedor padrão (driver hybrid) que executa o ranking híbrido."
+    },
+    {
+      "path": "snapshot/src/modules/recommendations/providers/recommendation-eligibility.util.ts",
+      "original_path": "src/modules/recommendations/providers/recommendation-eligibility.util.ts",
+      "original_sha256": "eee8b3094ec2fae468b46e988e5dfa01cd1e900897161205e69daea414a5729c",
+      "purpose": "Regras de elegibilidade: mesma obra e primeiro volume de série."
+    },
+    {
+      "path": "snapshot/src/modules/recommendations/providers/book-similarity.util.ts",
+      "original_path": "src/modules/recommendations/providers/book-similarity.util.ts",
+      "original_sha256": "79f974b4dcd2c2d32ad4aa9098673f3082bd02fad58d6830659de5dc19a37c7f",
+      "purpose": "Similaridade entre livros por metadados (livros relacionados)."
+    },
+    {
+      "path": "snapshot/src/modules/recommendations/providers/recommendation-provider.interface.ts",
+      "original_path": "src/modules/recommendations/providers/recommendation-provider.interface.ts",
+      "original_sha256": "71dce9ca7c8ce26f4aba1019187e777120b72e5a303ed18506f455d5c11a97af",
+      "purpose": "Contrato comum dos provedores de recomendação."
+    },
+    {
+      "path": "snapshot/src/modules/recommendations/providers/recommendation-ranking.util.spec.ts",
+      "original_path": "src/modules/recommendations/providers/recommendation-ranking.util.spec.ts",
+      "original_sha256": "2861173b67600b62822674bbeb12aedd08cfbf4baa56b4f734a47063cdbe85d5",
+      "purpose": "Testes unitários originais do ranking."
+    },
+    {
+      "path": "snapshot/src/modules/recommendations/providers/recommendation-eligibility.util.spec.ts",
+      "original_path": "src/modules/recommendations/providers/recommendation-eligibility.util.spec.ts",
+      "original_sha256": "d879879bc242a37088e003c4d8214de3e33f5a2e7cddbc671dfb1234e9e3595d",
+      "purpose": "Testes unitários originais de elegibilidade."
+    },
+    {
+      "path": "snapshot/src/modules/recommendations/providers/book-similarity.util.spec.ts",
+      "original_path": "src/modules/recommendations/providers/book-similarity.util.spec.ts",
+      "original_sha256": "892c31d3aee0be2784e98a905da1e0aeeb50ec8c54ac432786a776e5113ef88a",
+      "purpose": "Testes unitários originais de similaridade entre livros."
+    },
+    {
+      "path": "snapshot/src/modules/recommendations/types/recommendation.types.ts",
+      "original_path": "src/modules/recommendations/types/recommendation.types.ts",
+      "original_sha256": "d12fefa36e7a2d8f14741eab4333c8c0bb2e3a84087872d1dec59b53b7a1bcf3",
+      "purpose": "Tipos de entrada e saída das recomendações."
+    },
+    {
+      "path": "snapshot/src/modules/recommendations/entities/recommendation-event.entity.ts",
+      "original_path": "src/modules/recommendations/entities/recommendation-event.entity.ts",
+      "original_sha256": "7dc4f75618aa394dbc1d530c0a6c86b60dffe1b5b40a2f1fd7d2a4b00dca3cc6",
+      "purpose": "Tipo dos eventos de recomendação (neutralizados no experimento)."
+    },
+    {
+      "path": "snapshot/src/modules/books/entities/book.entity.ts",
+      "original_path": "src/modules/books/entities/book.entity.ts",
+      "original_sha256": "bcf26f86d01ec094199f1e8fcbd8c89ae4c7e070c437d0a7c11d1f849ab8efab",
+      "purpose": "Tipo Book utilizado pelos provedores."
+    },
+    {
+      "path": "snapshot/src/modules/books/utils/recommendation-metadata.util.ts",
+      "original_path": "src/modules/books/utils/recommendation-metadata.util.ts",
+      "original_sha256": "fae5df8a930a30e63af08d95524e555d9058668b3e94b407664b02ce899f3b2c",
+      "purpose": "Normalização de metadados e gêneros usados no ranking."
+    },
+    {
+      "path": "snapshot/src/modules/books/utils/recommendation-metadata.util.spec.ts",
+      "original_path": "src/modules/books/utils/recommendation-metadata.util.spec.ts",
+      "original_sha256": "31b02cc9f8d07c8527c83283215481a755ccbb912b1986674263b7e2b44ed3a6",
+      "purpose": "Testes unitários originais de metadados."
+    },
+    {
+      "path": "snapshot/src/modules/books/utils/book-canonical.util.ts",
+      "original_path": "src/modules/books/utils/book-canonical.util.ts",
+      "original_sha256": "481307aee2259c720ba0846291e8ce043c1ae8e6b078a95f56f70e77631b97ce",
+      "purpose": "Chave canônica de obra (deduplicação)."
+    },
+    {
+      "path": "snapshot/src/modules/books/utils/book-identifiers.ts",
+      "original_path": "src/modules/books/utils/book-identifiers.ts",
+      "original_sha256": "1359763a0edb48c941e6ac033b2170379d1f220fdb108abf035c6257e00cff84",
+      "purpose": "Normalização de ISBN usada pela elegibilidade."
+    },
+    {
+      "path": "snapshot/src/modules/books/utils/genre-classifier.util.ts",
+      "original_path": "src/modules/books/utils/genre-classifier.util.ts",
+      "original_sha256": "980b6c32cb152e92e6a83dca982ec803835e9a2dded4fc48aa193a2f3b43ab29",
+      "purpose": "Taxonomia heurística de gêneros (palavras-chave, não aprendida)."
+    },
+    {
+      "path": "snapshot/src/modules/library/entities/library-item.entity.ts",
+      "original_path": "src/modules/library/entities/library-item.entity.ts",
+      "original_sha256": "8cf09bc2e356a8ab28a16be2aa7f24f45a07cb51572502781c93879daacdd337",
+      "purpose": "Tipo LibraryItem (item de biblioteca)."
+    },
+    {
+      "path": "snapshot/src/modules/library/entities/reading-session.entity.ts",
+      "original_path": "src/modules/library/entities/reading-session.entity.ts",
+      "original_sha256": "964f0db950520ea8fe981cb2f23f900e6d4120e776c9ec4cda4be7a1208c600e",
+      "purpose": "Tipo ReadingSession (neutralizado no experimento)."
+    },
+    {
+      "path": "snapshot/src/modules/imports/utils/title-match.util.ts",
+      "original_path": "src/modules/imports/utils/title-match.util.ts",
+      "original_sha256": "b4e3beddeec74b9c879096848f8430cb2c5fc5469f8c0876c3e6fb54adfe9cc1",
+      "purpose": "Função foldText usada pelo classificador de gêneros."
+    },
+    {
+      "path": "snapshot/src/common/types/enums.ts",
+      "original_path": "src/common/types/enums.ts",
+      "original_sha256": "49a472a703d3359a091c004983c296102ebfb803b46efb2944bda94a6ab55051",
+      "purpose": "Enumerações comuns (ReadingStatus)."
+    }
+  ]
+}

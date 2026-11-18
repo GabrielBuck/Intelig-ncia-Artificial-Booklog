@@ -1,0 +1,50 @@
+{
+  "script": "src/avaliacao_n2.py",
+  "parameters": {
+    "cutoff": "2026-09-10",
+    "relevance_threshold": 4.0,
+    "ks": [
+      5,
+      10
+    ],
+    "list_limit": 10,
+    "bootstrap_samples": 10000,
+    "seed": 42,
+    "tfidf": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "strip_accents": "unicode",
+      "sublinear_tf": true,
+      "document": "author + genre + genre",
+      "profile": "média ponderada dos livros de treino com nota >= 4, peso = nota - 3"
+    },
+    "popularity": "contagem no treino desc, média desc, book_id asc",
+    "backend_collaborative_limits": {
+      "seed_books": 20,
+      "readers": 25,
+      "items": 150
+    },
+    "backend_neutralized_signals": [
+      "favoritos",
+      "progresso",
+      "status de conclusão",
+      "tags",
+      "sessões",
+      "buscas",
+      "eventos",
+      "gêneros do perfil",
+      "tendência"
+    ]
+  },
+  "environment": {
+    "python": "3.11.9",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.5.2",
+    "matplotlib": "3.10.8",
+    "node": "v24.16.0"
+  },
+  "external_services": "nenhum (sem banco, rede ou credenciais do BookLog)"
+}

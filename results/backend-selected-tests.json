@@ -1,0 +1,251 @@
+{
+  "description": "Execução das 7 suítes selecionadas do módulo de recomendações no backend original, em cópia isolada e descartável do commit indicado (sem .env, PERSISTENCE_DRIVER=memory, Open Library desativada pelo setup dos testes; nenhum banco, rede ou serviço de produção).",
+  "source_commit": "063583bbcf1d7a9718bd53867c714757e1950283",
+  "executed_on": "2026-11-18",
+  "command": "npx jest --runInBand <7 suítes>",
+  "environment": {
+    "node": "v24.16.0",
+    "jest": "30.5.2",
+    "ts-jest": "29.4.14"
+  },
+  "scope_note": "Seleção das suítes ligadas a recomendações; não representa a suíte completa do produto.",
+  "totals": {
+    "suites": 7,
+    "suites_passed": 7,
+    "tests": 47,
+    "passed": 47,
+    "failed": 0
+  },
+  "suites": [
+    {
+      "suite": "src/modules/recommendations/providers/recommendation-ranking.util.spec.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "personal library relevance > keeps all relevant HQs and limits a friend's unrelated books to 20% of the result",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > does not fill sparse personalized results with a friend's unrelated library",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > does not treat placeholder categories as shared taste",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > still recommends uncategorized books by a known author",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > keeps explicit collaborative and trending strategies available",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > does not use social-only suggestions in contentBased",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > does not create graph edges from language and ratings alone",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > anchors graph paths to the original library",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > prioritizes forty Literatura cristã books over a romance-heavy social catalog",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > prioritizes forty Ficção científica books over a romance-heavy social catalog",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > does not manufacture hybrid, graph or similar-book affinity from Unknown author",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > does not manufacture hybrid, graph or similar-book affinity from Autor desconhecido",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > does not manufacture hybrid, graph or similar-book affinity from N/A",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > uses catalog subjects when categories are missing and normalizes author accents",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > does not let many incidental romance interactions displace an established library",
+          "status": "passed"
+        },
+        {
+          "title": "personal library relevance > does not broaden a Christian library through generic literature subjects",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "suite": "src/modules/recommendations/services/recommendations-visibility.spec.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "recommendations only suggest books the reader can open and has not answered > drops another reader's private title and provisional books, even from similar readers' libraries",
+          "status": "passed"
+        },
+        {
+          "title": "recommendations only suggest books the reader can open and has not answered > reads card answers on its own; a like stays on the list as a taste signal",
+          "status": "passed"
+        },
+        {
+          "title": "recommendations only suggest books the reader can open and has not answered > \"not interested\" removes the book, unless a later like took it back",
+          "status": "passed"
+        },
+        {
+          "title": "recommendations only suggest books the reader can open and has not answered > keeps the list for the day and starts a new one the next day (São Paulo)",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "suite": "test/personalized-recommendations.spec.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "personal recommendations beyond the generic catalog window > serves Literatura cristã for forty read books despite 120 earlier romances",
+          "status": "passed"
+        },
+        {
+          "title": "personal recommendations beyond the generic catalog window > serves Ficção científica for forty read books despite 120 earlier romances",
+          "status": "passed"
+        },
+        {
+          "title": "personal recommendations beyond the generic catalog window > finds unknown-category candidates through known authors and explicit subjects",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "suite": "src/modules/recommendations/providers/book-similarity.util.spec.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "similarityScore > does not connect unrelated books through unknown authors",
+          "status": "passed"
+        },
+        {
+          "title": "similarityScore > adds up what the books share",
+          "status": "passed"
+        },
+        {
+          "title": "similarityScore > does not treat \"Uncategorized\" as a shared genre",
+          "status": "passed"
+        },
+        {
+          "title": "similarityScore > only counts publication type when both books have one",
+          "status": "passed"
+        },
+        {
+          "title": "isSameWork > recognizes another edition by title and first author, and the book itself",
+          "status": "passed"
+        },
+        {
+          "title": "rankSimilarBooks > puts the same author first, drops the book itself, its editions and weak matches",
+          "status": "passed"
+        },
+        {
+          "title": "rankSimilarBooks > breaks ties by readers and is stable, with no duplicates and a limit",
+          "status": "passed"
+        },
+        {
+          "title": "rankSimilarBooks > is empty when nothing is alike",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "suite": "src/modules/recommendations/providers/recommendation-eligibility.util.spec.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "recommendation eligibility > recognizes a translated edition by shared work identity without guessing from its author",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation eligibility > recognizes editions despite a subtitle and normalized accents, and equivalent ISBN spellings",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation eligibility > only admits known first volumes and never treats an omnibus or unknown series volume as first",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation eligibility > filters owned translations and sequels before ranking, including trending without personalization",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "suite": "src/modules/recommendations/services/recommendations.service.spec.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "recommendation seed recovery > preserves personalization during a batch outage with at most eight concurrent lookups",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "suite": "src/modules/books/utils/recommendation-metadata.util.spec.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "recommendation metadata > recognizes Literatura cristã in the existing religion taxonomy",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation metadata > recognizes Christian living in the existing religion taxonomy",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation metadata > recognizes Cristianismo in the existing religion taxonomy",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation metadata > recognizes Religion in the existing religion taxonomy",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation metadata > ignores Unknown Author. as evidence of reader taste",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation metadata > ignores Unknown type as evidence of reader taste",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation metadata > ignores Autor desconhecido as evidence of reader taste",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation metadata > ignores Sem categoria as evidence of reader taste",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation metadata > ignores N/A as evidence of reader taste",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation metadata > ignores Various authors as evidence of reader taste",
+          "status": "passed"
+        },
+        {
+          "title": "recommendation metadata > ignores  as evidence of reader taste",
+          "status": "passed"
+        }
+      ]
+    }
+  ]
+}

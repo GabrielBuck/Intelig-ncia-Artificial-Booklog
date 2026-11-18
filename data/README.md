@@ -40,4 +40,13 @@ O gerador `src/expandir_dataset_n1.py` é um protótipo sintético de 150 perfis
 
 ## Limitações e uso
 
-A base é pequena, elaborada para fins acadêmicos e não sustenta conclusões sobre o mercado editorial ou leitores reais. A N2 deverá comparar baseline e personalização com separação de treino e teste e métricas compatíveis com a tarefa.
+A base é pequena, elaborada para fins acadêmicos e não sustenta conclusões sobre o mercado editorial ou leitores reais. ## Uso na N2
+
+A N2 usa exatamente a mesma base (sem a expansão sintética e sem `readers.csv`). `python src/avaliacao_n2.py` gera, a partir de `processed/ratings_clean.csv`, os conjuntos efetivos da avaliação:
+
+| Arquivo | Conteúdo |
+|---|---|
+| `processed/train.csv` | 273 avaliações de 20/08 a 09/09/2026 (antes do corte de 10/09/2026) |
+| `processed/test.csv` | 72 avaliações de 10/09 a 14/09/2026 |
+
+Nenhum par leitor-livro aparece nos dois arquivos. Popularidade, notas agregadas e coocorrência são calculadas apenas com `train.csv`. Um livro é relevante quando aparece em `test.csv` com nota ≥ 4 (29 avaliações, 20 leitores).

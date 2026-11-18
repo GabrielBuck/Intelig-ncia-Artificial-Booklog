@@ -1,0 +1,7782 @@
+{
+  "description": "Rankings (até 10 itens) de todas as estratégias para os 30 leitores; métricas usam os 20 com relevantes no teste.",
+  "evaluated_users": [
+    "U001",
+    "U003",
+    "U004",
+    "U005",
+    "U007",
+    "U008",
+    "U012",
+    "U013",
+    "U015",
+    "U017",
+    "U018",
+    "U019",
+    "U020",
+    "U022",
+    "U023",
+    "U024",
+    "U025",
+    "U026",
+    "U028",
+    "U030"
+  ],
+  "rankings": {
+    "popularidade": {
+      "U001": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 3,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 4,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 5,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 6,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 7,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 8,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 9,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 10,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        }
+      ],
+      "U002": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 3,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 4,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 5,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 9,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 10,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        }
+      ],
+      "U003": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 4,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 5,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 6,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 9,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        }
+      ],
+      "U004": [
+        {
+          "rank": 1,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 4,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 5,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 6,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 9,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 10,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        }
+      ],
+      "U005": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 3,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 4,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 5,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 6,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 9,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 10,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        }
+      ],
+      "U006": [
+        {
+          "rank": 1,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 4,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 6,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 9,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        }
+      ],
+      "U007": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 4,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 5,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 6,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 7,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 8,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 9,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 10,
+          "book_id": "B013",
+          "title": "Fundação"
+        }
+      ],
+      "U008": [
+        {
+          "rank": 1,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 2,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 3,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 5,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 6,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 9,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 10,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        }
+      ],
+      "U009": [
+        {
+          "rank": 1,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 2,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 3,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 4,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 5,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 9,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        }
+      ],
+      "U010": [
+        {
+          "rank": 1,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 2,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 3,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 5,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 9,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 10,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        }
+      ],
+      "U011": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 3,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 4,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 5,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 6,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 7,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 8,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 9,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 10,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        }
+      ],
+      "U012": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 3,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 4,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 5,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 7,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 8,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 9,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 10,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        }
+      ],
+      "U013": [
+        {
+          "rank": 1,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 4,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 5,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 7,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 8,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 9,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 10,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        }
+      ],
+      "U014": [
+        {
+          "rank": 1,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 2,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 3,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 4,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 5,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 6,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 7,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 8,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 9,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 10,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        }
+      ],
+      "U015": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 4,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 6,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 7,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 8,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 9,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 10,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        }
+      ],
+      "U016": [
+        {
+          "rank": 1,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 2,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 3,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 5,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 6,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 7,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 8,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 9,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 10,
+          "book_id": "B013",
+          "title": "Fundação"
+        }
+      ],
+      "U017": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 3,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 4,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 5,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 7,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 8,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 9,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 10,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        }
+      ],
+      "U018": [
+        {
+          "rank": 1,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 2,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 3,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 5,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 6,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 7,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 8,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 9,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 10,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        }
+      ],
+      "U019": [
+        {
+          "rank": 1,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 2,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 3,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 4,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 5,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 9,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 10,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        }
+      ],
+      "U020": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 3,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 4,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 6,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 9,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 10,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        }
+      ],
+      "U021": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 5,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 6,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 9,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 10,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        }
+      ],
+      "U022": [
+        {
+          "rank": 1,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 2,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 3,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 5,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 6,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 7,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 8,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 9,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 10,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        }
+      ],
+      "U023": [
+        {
+          "rank": 1,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 2,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 3,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 4,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 9,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 10,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        }
+      ],
+      "U024": [
+        {
+          "rank": 1,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 2,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 3,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 4,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 5,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 8,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 9,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 10,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        }
+      ],
+      "U025": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 3,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 4,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 6,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 7,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 8,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 9,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 10,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        }
+      ],
+      "U026": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 4,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 8,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 9,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 10,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        }
+      ],
+      "U027": [
+        {
+          "rank": 1,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 4,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 5,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 6,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 9,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 10,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        }
+      ],
+      "U028": [
+        {
+          "rank": 1,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 2,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 3,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 4,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 5,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 6,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 7,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 8,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 9,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 10,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        }
+      ],
+      "U029": [
+        {
+          "rank": 1,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 2,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 3,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 5,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 6,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 9,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 10,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        }
+      ],
+      "U030": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 3,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 4,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 5,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 6,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 8,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 9,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 10,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        }
+      ]
+    },
+    "tfidf": {
+      "U001": [
+        {
+          "rank": 1,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 2,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 3,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 4,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 5,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 6,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 7,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 8,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 9,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 10,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        }
+      ],
+      "U002": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 3,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 4,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 5,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 8,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 9,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 10,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        }
+      ],
+      "U003": [
+        {
+          "rank": 1,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 2,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 5,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 6,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 7,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 8,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 9,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 10,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        }
+      ],
+      "U004": [
+        {
+          "rank": 1,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 2,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 3,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 4,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 5,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 6,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 7,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 8,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 9,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 10,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        }
+      ],
+      "U005": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 3,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 5,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 6,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 8,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 9,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 10,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        }
+      ],
+      "U006": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 3,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 4,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 8,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 9,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 10,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        }
+      ],
+      "U007": [
+        {
+          "rank": 1,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 2,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 5,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 6,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 7,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 8,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 9,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 10,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        }
+      ],
+      "U008": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 3,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 4,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 5,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 6,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 9,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        }
+      ],
+      "U009": [
+        {
+          "rank": 1,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 2,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 3,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 4,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 6,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 7,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 8,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 9,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 10,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        }
+      ],
+      "U010": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 3,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 4,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 5,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 6,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 7,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 8,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 9,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 10,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        }
+      ],
+      "U011": [
+        {
+          "rank": 1,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 2,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 3,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 4,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 5,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 7,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 8,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 9,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 10,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        }
+      ],
+      "U012": [
+        {
+          "rank": 1,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 2,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 3,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 6,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 7,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 8,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 9,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 10,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        }
+      ],
+      "U013": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 3,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 4,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 5,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 6,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 9,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 10,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        }
+      ],
+      "U014": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 3,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 4,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 5,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 6,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 8,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 9,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 10,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        }
+      ],
+      "U015": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 3,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 4,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 5,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 6,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 7,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 8,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 9,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        }
+      ],
+      "U016": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 3,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 5,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 6,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 7,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 8,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 9,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        }
+      ],
+      "U017": [
+        {
+          "rank": 1,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 2,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 3,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 4,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 6,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 7,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 8,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 9,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        }
+      ],
+      "U018": [
+        {
+          "rank": 1,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 2,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 3,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 4,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 5,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 9,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 10,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        }
+      ],
+      "U019": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 3,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 5,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 6,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 7,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 8,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 9,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 10,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        }
+      ],
+      "U020": [
+        {
+          "rank": 1,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 2,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 3,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 5,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 6,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 7,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 8,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 9,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 10,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        }
+      ],
+      "U021": [
+        {
+          "rank": 1,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 2,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 3,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 4,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 5,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 6,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 8,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 9,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 10,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        }
+      ],
+      "U022": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 3,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 4,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 5,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 6,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 7,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 9,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        }
+      ],
+      "U023": [
+        {
+          "rank": 1,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 2,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 3,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 5,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 6,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 7,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 8,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 9,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        }
+      ],
+      "U024": [
+        {
+          "rank": 1,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 2,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 3,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 4,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 5,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 7,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 8,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 9,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 10,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        }
+      ],
+      "U025": [
+        {
+          "rank": 1,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 2,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 3,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 4,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 5,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 8,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 9,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 10,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        }
+      ],
+      "U026": [
+        {
+          "rank": 1,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 2,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 3,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 5,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 6,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 7,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 8,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 9,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 10,
+          "book_id": "B014",
+          "title": "Duna"
+        }
+      ],
+      "U027": [
+        {
+          "rank": 1,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 4,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 5,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 6,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 7,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 8,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 9,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 10,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        }
+      ],
+      "U028": [
+        {
+          "rank": 1,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 2,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 5,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 7,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 8,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 9,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 10,
+          "book_id": "B001",
+          "title": "1984"
+        }
+      ],
+      "U029": [
+        {
+          "rank": 1,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 4,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 5,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 6,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 9,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 10,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        }
+      ],
+      "U030": [
+        {
+          "rank": 1,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 2,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 3,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 4,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 5,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 6,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 7,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 8,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 9,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 10,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        }
+      ]
+    },
+    "conteudo": {
+      "U001": [
+        {
+          "rank": 1,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 2,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 3,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 4,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 5,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 6,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 9,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 10,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        }
+      ],
+      "U002": [
+        {
+          "rank": 1,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 2,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 5,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 6,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 9,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 10,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        }
+      ],
+      "U003": [
+        {
+          "rank": 1,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 2,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 3,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 4,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 5,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 6,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 7,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 8,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 9,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 10,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        }
+      ],
+      "U004": [
+        {
+          "rank": 1,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 2,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 5,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 6,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 7,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 8,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 9,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B013",
+          "title": "Fundação"
+        }
+      ],
+      "U005": [
+        {
+          "rank": 1,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 2,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 3,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 5,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 6,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 7,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 8,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 9,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 10,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        }
+      ],
+      "U006": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 4,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 5,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 7,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 8,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 9,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 10,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        }
+      ],
+      "U007": [
+        {
+          "rank": 1,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 2,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 5,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 6,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 9,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 10,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        }
+      ],
+      "U008": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 3,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 4,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 5,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 8,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 9,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 10,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        }
+      ],
+      "U009": [
+        {
+          "rank": 1,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 2,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 3,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 6,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        }
+      ],
+      "U010": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 3,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 4,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 5,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 9,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 10,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        }
+      ],
+      "U011": [
+        {
+          "rank": 1,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 2,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 3,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 4,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 5,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 9,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 10,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        }
+      ],
+      "U012": [
+        {
+          "rank": 1,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 2,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 3,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 4,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 6,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 7,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 8,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 9,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 10,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        }
+      ],
+      "U013": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 3,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 4,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 5,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 7,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 8,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 9,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 10,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        }
+      ],
+      "U014": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 3,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 4,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 5,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 9,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 10,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        }
+      ],
+      "U015": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 3,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 5,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 6,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 7,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 9,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 10,
+          "book_id": "B013",
+          "title": "Fundação"
+        }
+      ],
+      "U016": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 3,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 5,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 6,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 7,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 8,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 9,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 10,
+          "book_id": "B021",
+          "title": "Persuasão"
+        }
+      ],
+      "U017": [
+        {
+          "rank": 1,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 2,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 3,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 5,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 8,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 9,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        }
+      ],
+      "U018": [
+        {
+          "rank": 1,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 2,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 3,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 5,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 6,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 7,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 8,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 9,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        }
+      ],
+      "U019": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 3,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 5,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 6,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 7,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 8,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 9,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 10,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        }
+      ],
+      "U020": [
+        {
+          "rank": 1,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 2,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 3,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 5,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 6,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 7,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 9,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        }
+      ],
+      "U021": [
+        {
+          "rank": 1,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 2,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 3,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 5,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 6,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 7,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 9,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 10,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        }
+      ],
+      "U022": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 3,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 5,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 6,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 7,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 9,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        }
+      ],
+      "U023": [
+        {
+          "rank": 1,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 2,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 3,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 4,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 5,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 7,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 8,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 9,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 10,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        }
+      ],
+      "U024": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 3,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 4,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 5,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 6,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 7,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 9,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 10,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        }
+      ],
+      "U025": [
+        {
+          "rank": 1,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 2,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 3,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 4,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 5,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 8,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 9,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 10,
+          "book_id": "B021",
+          "title": "Persuasão"
+        }
+      ],
+      "U026": [
+        {
+          "rank": 1,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 2,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 3,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 5,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 6,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 7,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 8,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 9,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 10,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        }
+      ],
+      "U027": [
+        {
+          "rank": 1,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 5,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 8,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 9,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 10,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        }
+      ],
+      "U028": [
+        {
+          "rank": 1,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 2,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 5,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 6,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 9,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 10,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        }
+      ],
+      "U029": [
+        {
+          "rank": 1,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 2,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 3,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 4,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 5,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 6,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 7,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 8,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 9,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 10,
+          "book_id": "B021",
+          "title": "Persuasão"
+        }
+      ],
+      "U030": [
+        {
+          "rank": 1,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 2,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 3,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 4,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 5,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 6,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 7,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 8,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 9,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        }
+      ]
+    },
+    "hibrido": {
+      "U001": [
+        {
+          "rank": 1,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 2,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 3,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 4,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 5,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 6,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 9,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 10,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        }
+      ],
+      "U002": [
+        {
+          "rank": 1,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 2,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 5,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 6,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 7,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 8,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 9,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 10,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        }
+      ],
+      "U003": [
+        {
+          "rank": 1,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 2,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 5,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 6,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 7,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 8,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 9,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 10,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        }
+      ],
+      "U004": [
+        {
+          "rank": 1,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 2,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 5,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 6,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 7,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 8,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 9,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        }
+      ],
+      "U005": [
+        {
+          "rank": 1,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 2,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 3,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 5,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 6,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 7,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 8,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 9,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        }
+      ],
+      "U006": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 4,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 5,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 6,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 7,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 9,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 10,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        }
+      ],
+      "U007": [
+        {
+          "rank": 1,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 2,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 5,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 6,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 7,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 8,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 9,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 10,
+          "book_id": "B021",
+          "title": "Persuasão"
+        }
+      ],
+      "U008": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 3,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 4,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 5,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 8,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 9,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 10,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        }
+      ],
+      "U009": [
+        {
+          "rank": 1,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 2,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 3,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 5,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 7,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        }
+      ],
+      "U010": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 4,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 8,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 9,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 10,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        }
+      ],
+      "U011": [
+        {
+          "rank": 1,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 2,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 3,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 4,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 5,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 9,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 10,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        }
+      ],
+      "U012": [
+        {
+          "rank": 1,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 2,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 3,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 4,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 5,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 7,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 8,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 9,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        }
+      ],
+      "U013": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 3,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 4,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 5,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 6,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 8,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 9,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 10,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        }
+      ],
+      "U014": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 3,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 4,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 5,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 9,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        }
+      ],
+      "U015": [
+        {
+          "rank": 1,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 2,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 3,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 5,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 6,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 7,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 8,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 9,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 10,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        }
+      ],
+      "U016": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 3,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 5,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 6,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 9,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 10,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        }
+      ],
+      "U017": [
+        {
+          "rank": 1,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 2,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 3,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 4,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 6,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 9,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        }
+      ],
+      "U018": [
+        {
+          "rank": 1,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 2,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 3,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 4,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 5,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 6,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 7,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 8,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 9,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        }
+      ],
+      "U019": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 3,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 5,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 6,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 9,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        }
+      ],
+      "U020": [
+        {
+          "rank": 1,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 2,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 3,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 4,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 6,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 7,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 9,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 10,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        }
+      ],
+      "U021": [
+        {
+          "rank": 1,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 2,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 3,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 4,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 5,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 6,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 7,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 8,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 9,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        }
+      ],
+      "U022": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 3,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 5,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 6,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 7,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 9,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        }
+      ],
+      "U023": [
+        {
+          "rank": 1,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 2,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 3,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 4,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 5,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 8,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 9,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 10,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        }
+      ],
+      "U024": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 3,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 4,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 5,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 6,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 7,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 8,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 9,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 10,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        }
+      ],
+      "U025": [
+        {
+          "rank": 1,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 2,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 3,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 4,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 5,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 6,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 7,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 8,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 9,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 10,
+          "book_id": "B021",
+          "title": "Persuasão"
+        }
+      ],
+      "U026": [
+        {
+          "rank": 1,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 2,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 3,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 5,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 6,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 8,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 9,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 10,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        }
+      ],
+      "U027": [
+        {
+          "rank": 1,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 5,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 8,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 9,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 10,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        }
+      ],
+      "U028": [
+        {
+          "rank": 1,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 2,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 5,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 6,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 9,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 10,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        }
+      ],
+      "U029": [
+        {
+          "rank": 1,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 2,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 3,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 4,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 5,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 6,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 7,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 8,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 9,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 10,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        }
+      ],
+      "U030": [
+        {
+          "rank": 1,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 2,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 3,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 5,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 6,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 7,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 8,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 9,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        }
+      ]
+    },
+    "grafo": {
+      "U001": [
+        {
+          "rank": 1,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 2,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 3,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 4,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 5,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 6,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 7,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 8,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 9,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 10,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        }
+      ],
+      "U002": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 3,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 4,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 5,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 6,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 7,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 8,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 9,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 10,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        }
+      ],
+      "U003": [
+        {
+          "rank": 1,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 2,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 5,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 6,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 7,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 8,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 9,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 10,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        }
+      ],
+      "U004": [
+        {
+          "rank": 1,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 2,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 3,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 4,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 5,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 6,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 7,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 8,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 9,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 10,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        }
+      ],
+      "U005": [
+        {
+          "rank": 1,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 2,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 3,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 5,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 9,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 10,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        }
+      ],
+      "U006": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 3,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 5,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 8,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 9,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 10,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        }
+      ],
+      "U007": [
+        {
+          "rank": 1,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 2,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 3,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 5,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 6,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 7,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 8,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 9,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 10,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        }
+      ],
+      "U008": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 3,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 4,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 5,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 8,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 9,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 10,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        }
+      ],
+      "U009": [
+        {
+          "rank": 1,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 2,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 5,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 6,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        }
+      ],
+      "U010": [
+        {
+          "rank": 1,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 2,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 3,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 4,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 5,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 6,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 7,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 8,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 9,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 10,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        }
+      ],
+      "U011": [
+        {
+          "rank": 1,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 2,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 3,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 4,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 6,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 7,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 8,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 9,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 10,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        }
+      ],
+      "U012": [
+        {
+          "rank": 1,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 2,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 3,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 4,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 5,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 6,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 7,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 8,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 9,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 10,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        }
+      ],
+      "U013": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 3,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 4,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 5,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 6,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 8,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 9,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 10,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        }
+      ],
+      "U014": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        },
+        {
+          "rank": 3,
+          "book_id": "B033",
+          "title": "O Cortiço"
+        },
+        {
+          "rank": 4,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 5,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 9,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        }
+      ],
+      "U015": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 3,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 5,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 6,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 8,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 9,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 10,
+          "book_id": "B035",
+          "title": "O Retrato de Dorian Gray"
+        }
+      ],
+      "U016": [
+        {
+          "rank": 1,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 2,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 3,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 4,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 5,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 6,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 7,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 8,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 9,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 10,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        }
+      ],
+      "U017": [
+        {
+          "rank": 1,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 2,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 3,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 5,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 6,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 9,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        }
+      ],
+      "U018": [
+        {
+          "rank": 1,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 2,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 3,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 5,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 6,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 7,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 8,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 9,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        }
+      ],
+      "U019": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 3,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 5,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 6,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 9,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        }
+      ],
+      "U020": [
+        {
+          "rank": 1,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 2,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 5,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 6,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 7,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 8,
+          "book_id": "B022",
+          "title": "Como Eu Era Antes de Você"
+        },
+        {
+          "rank": 9,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        },
+        {
+          "rank": 10,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        }
+      ],
+      "U021": [
+        {
+          "rank": 1,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 2,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 3,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 4,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 5,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 6,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 7,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 8,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 9,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 10,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        }
+      ],
+      "U022": [
+        {
+          "rank": 1,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 2,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 5,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 6,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 7,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 8,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 9,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 10,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        }
+      ],
+      "U023": [
+        {
+          "rank": 1,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 2,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 3,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 4,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 5,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 8,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 9,
+          "book_id": "B019",
+          "title": "Orgulho e Preconceito"
+        },
+        {
+          "rank": 10,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        }
+      ],
+      "U024": [
+        {
+          "rank": 1,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 2,
+          "book_id": "B006",
+          "title": "Jogos Vorazes"
+        },
+        {
+          "rank": 3,
+          "book_id": "B005",
+          "title": "O Conto da Aia"
+        },
+        {
+          "rank": 4,
+          "book_id": "B004",
+          "title": "Fahrenheit 451"
+        },
+        {
+          "rank": 5,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 6,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 7,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 8,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 9,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 10,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        }
+      ],
+      "U025": [
+        {
+          "rank": 1,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 2,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 3,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 4,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 5,
+          "book_id": "B031",
+          "title": "Dom Casmurro"
+        },
+        {
+          "rank": 6,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        },
+        {
+          "rank": 7,
+          "book_id": "B036",
+          "title": "Frankenstein"
+        },
+        {
+          "rank": 8,
+          "book_id": "B001",
+          "title": "1984"
+        },
+        {
+          "rank": 9,
+          "book_id": "B003",
+          "title": "Admirável Mundo Novo"
+        },
+        {
+          "rank": 10,
+          "book_id": "B021",
+          "title": "Persuasão"
+        }
+      ],
+      "U026": [
+        {
+          "rank": 1,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 2,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        },
+        {
+          "rank": 3,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 4,
+          "book_id": "B029",
+          "title": "O Código Da Vinci"
+        },
+        {
+          "rank": 5,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 6,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 7,
+          "book_id": "B002",
+          "title": "A Revolução dos Bichos"
+        },
+        {
+          "rank": 8,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 9,
+          "book_id": "B020",
+          "title": "Jane Eyre"
+        },
+        {
+          "rank": 10,
+          "book_id": "B023",
+          "title": "Teto para Dois"
+        }
+      ],
+      "U027": [
+        {
+          "rank": 1,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 5,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 6,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 7,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 8,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 9,
+          "book_id": "B030",
+          "title": "A Paciente Silenciosa"
+        },
+        {
+          "rank": 10,
+          "book_id": "B025",
+          "title": "Assassinato no Expresso do Oriente"
+        }
+      ],
+      "U028": [
+        {
+          "rank": 1,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 2,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 3,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 4,
+          "book_id": "B021",
+          "title": "Persuasão"
+        },
+        {
+          "rank": 5,
+          "book_id": "B024",
+          "title": "Um Dia"
+        },
+        {
+          "rank": 6,
+          "book_id": "B013",
+          "title": "Fundação"
+        },
+        {
+          "rank": 7,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 8,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 9,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        },
+        {
+          "rank": 10,
+          "book_id": "B034",
+          "title": "A Hora da Estrela"
+        }
+      ],
+      "U029": [
+        {
+          "rank": 1,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 2,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 3,
+          "book_id": "B017",
+          "title": "O Guia do Mochileiro das Galáxias"
+        },
+        {
+          "rank": 4,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 5,
+          "book_id": "B012",
+          "title": "O Feiticeiro de Terramar"
+        },
+        {
+          "rank": 6,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        },
+        {
+          "rank": 7,
+          "book_id": "B007",
+          "title": "O Hobbit"
+        },
+        {
+          "rank": 8,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 9,
+          "book_id": "B010",
+          "title": "O Nome do Vento"
+        },
+        {
+          "rank": 10,
+          "book_id": "B032",
+          "title": "Memórias Póstumas de Brás Cubas"
+        }
+      ],
+      "U030": [
+        {
+          "rank": 1,
+          "book_id": "B026",
+          "title": "E Não Sobrou Nenhum"
+        },
+        {
+          "rank": 2,
+          "book_id": "B027",
+          "title": "O Silêncio dos Inocentes"
+        },
+        {
+          "rank": 3,
+          "book_id": "B028",
+          "title": "Garota Exemplar"
+        },
+        {
+          "rank": 4,
+          "book_id": "B015",
+          "title": "Eu, Robô"
+        },
+        {
+          "rank": 5,
+          "book_id": "B018",
+          "title": "A Mão Esquerda da Escuridão"
+        },
+        {
+          "rank": 6,
+          "book_id": "B016",
+          "title": "Neuromancer"
+        },
+        {
+          "rank": 7,
+          "book_id": "B014",
+          "title": "Duna"
+        },
+        {
+          "rank": 8,
+          "book_id": "B009",
+          "title": "Harry Potter e a Pedra Filosofal"
+        },
+        {
+          "rank": 9,
+          "book_id": "B011",
+          "title": "As Crônicas de Nárnia"
+        },
+        {
+          "rank": 10,
+          "book_id": "B008",
+          "title": "A Sociedade do Anel"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "executed_on": "2026-11-18",
+  "python_academic_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "exit_code": 0,
+    "tests": 11,
+    "passed": 11,
+    "details": [
+      {
+        "title": "test_perfect_ranking_has_ndcg_one (test_avaliacao_n2.MetricTests.test_perfect_ranking_has_ndcg_one)",
+        "status": "passed"
+      },
+      {
+        "title": "test_precision_recall_ndcg_controlled_case (test_avaliacao_n2.MetricTests.test_precision_recall_ndcg_controlled_case)",
+        "status": "passed"
+      },
+      {
+        "title": "test_short_list_is_divided_by_k (test_avaliacao_n2.MetricTests.test_short_list_is_divided_by_k)",
+        "status": "passed"
+      },
+      {
+        "title": "test_dataset_matches_n1 (test_avaliacao_n2.ProtocolTests.test_dataset_matches_n1)",
+        "status": "passed"
+      },
+      {
+        "title": "test_popularity_uses_only_training (test_avaliacao_n2.ProtocolTests.test_popularity_uses_only_training)",
+        "status": "passed"
+      },
+      {
+        "title": "test_relevance_definition (test_avaliacao_n2.ProtocolTests.test_relevance_definition)",
+        "status": "passed"
+      },
+      {
+        "title": "test_temporal_split_counts_and_no_leakage (test_avaliacao_n2.ProtocolTests.test_temporal_split_counts_and_no_leakage)",
+        "status": "passed"
+      },
+      {
+        "title": "test_no_strategy_recommends_training_books (test_avaliacao_n2.PublishedResultsTests.test_no_strategy_recommends_training_books)",
+        "status": "passed"
+      },
+      {
+        "title": "test_numbers_cited_in_report (test_avaliacao_n2.PublishedResultsTests.test_numbers_cited_in_report)",
+        "status": "passed"
+      },
+      {
+        "title": "test_snapshot_body_identical_to_backend_commit (test_avaliacao_n2.PublishedResultsTests.test_snapshot_body_identical_to_backend_commit)",
+        "status": "passed"
+      },
+      {
+        "title": "test_u003_example_used_in_the_video (test_avaliacao_n2.PublishedResultsTests.test_u003_example_used_in_the_video)",
+        "status": "passed"
+      }
+    ]
+  },
+  "snapshot_original_unit_tests": {
+    "command": "npm --prefix snapshot test",
+    "exit_code": 0,
+    "suites": [
+      {
+        "suite": "snapshot/src/modules/recommendations/providers/recommendation-ranking.util.spec.ts",
+        "status": "passed",
+        "tests": 16,
+        "passed": 16
+      },
+      {
+        "suite": "snapshot/src/modules/recommendations/providers/book-similarity.util.spec.ts",
+        "status": "passed",
+        "tests": 8,
+        "passed": 8
+      },
+      {
+        "suite": "snapshot/src/modules/recommendations/providers/recommendation-eligibility.util.spec.ts",
+        "status": "passed",
+        "tests": 4,
+        "passed": 4
+      },
+      {
+        "suite": "snapshot/src/modules/books/utils/recommendation-metadata.util.spec.ts",
+        "status": "passed",
+        "tests": 11,
+        "passed": 11
+      }
+    ],
+    "tests": 39,
+    "passed": 39,
+    "failed": 0
+  },
+  "backend_selected_suites": {
+    "source": "results/backend-selected-tests.json",
+    "description": "Execução das 7 suítes selecionadas do módulo de recomendações no backend original, em cópia isolada e descartável do commit indicado (sem .env, PERSISTENCE_DRIVER=memory, Open Library desativada pelo setup dos testes; nenhum banco, rede ou serviço de produção).",
+    "source_commit": "063583bbcf1d7a9718bd53867c714757e1950283",
+    "executed_on": "2026-11-18",
+    "totals": {
+      "suites": 7,
+      "suites_passed": 7,
+      "tests": 47,
+      "passed": 47,
+      "failed": 0
+    },
+    "scope_note": "Seleção das suítes ligadas a recomendações; não representa a suíte completa do produto."
+  }
+}
